@@ -1,0 +1,31 @@
+---
+layout: default
+nav: resources
+title: For presenters
+permalink: /resources/
+---
+<p class="lede">What to expect if you are presenting, and a few things that make the hour work better for everyone.</p>
+
+<h2 class="plain">The format</h2>
+{%- assign sem = site.data.sessions.semesters | where: "current", true | first -%}
+<p>Sessions run {{ sem.time }} in {{ site.data.sessions.meta.location }}. You present a recent working paper, or your own work in progress. Plan for roughly 40 minutes of material: the room asks questions throughout, and a talk built to fill the full hour will not finish.</p>
+
+<h2 class="plain">Guidance</h2>
+<div class="links" style="margin-top:14px">
+  <a href="{{ '/files/resources/presentation-tips.pdf' | relative_url }}">Tips for an effective presentation (PDF)</a>
+</div>
+
+<h2 class="plain">A rough shape that works</h2>
+<ul>
+  <li><strong>Motivation, 5 minutes.</strong> The question and why it matters. Do not open with the literature.</li>
+  <li><strong>What the paper does, 5 minutes.</strong> The idea in words before any notation.</li>
+  <li><strong>Model or empirical design, 15 minutes.</strong> The core mechanism. Skip derivations the room can take on faith.</li>
+  <li><strong>Results, 10 minutes.</strong> The two or three exhibits that carry the argument.</li>
+  <li><strong>Your own read, 5 minutes.</strong> What convinced you, what did not. This is usually the best part of the session.</li>
+</ul>
+
+<h2 class="plain">Slides</h2>
+<p>Send your slides to the organizer after the session and they will be posted here alongside the paper. If you would rather they were not posted, just say so and they will not be.</p>
+
+<h2 class="plain">Presenting your own work</h2>
+<p>Encouraged. The group is a good low-stakes audience for a job-market paper or a third-year paper, and several past sessions have been exactly that.</p>

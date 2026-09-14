@@ -1,0 +1,37 @@
+---
+layout: default
+nav: home
+---
+{%- assign sem = site.data.sessions.semesters | where: "current", true | first -%}
+{%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+
+<p class="lede">{{ site.data.sessions.meta.blurb }}</p>
+
+{%- comment -%}
+  The hero is rendered server-side for the first upcoming session, then corrected
+  on load by assets/next-session.js so it stays right between pushes.
+{%- endcomment -%}
+{%- assign nxt = nil -%}
+{%- for s in sem.sessions -%}
+  {%- assign d = s.date | date: "%Y%m%d" | plus: 0 -%}
+  {%- if nxt == nil and d >= today and s.status == nil -%}{%- assign nxt = s -%}{%- endif -%}
+{%- endfor -%}
+
+<section class="hero" id="next-session" data-time="{{ sem.time | split: ', ' | last }}"{% unless nxt %} hidden{% endunless %}>
+  <p class="label">Next session</p>
+  {%- if nxt %}
+  <p class="when" data-field="when">{{ nxt.date | date: "%A, %B %-d" }} &middot; {{ sem.time | split: ", " | last }}</p>
+  <p class="when" style="font-weight:400;color:var(--muted)" data-field="where">{{ site.data.sessions.meta.location }}</p>
+  <h2 class="title" data-field="title">{% if nxt.paper_url %}<a href="{{ nxt.paper_url }}">{{ nxt.title }}</a>{% else %}{{ nxt.title }}{% endif %}</h2>
+  {%- if nxt.authors %}<p class="authors" data-field="authors">{{ nxt.authors }}</p>{% endif %}
+  <p class="who" data-field="who">Presented by <strong>{{ nxt.presenter }}</strong></p>
+  {%- if nxt.paper_url %}<div class="links" data-field="links"><a href="{{ nxt.paper_url }}">Paper&nbsp;&#8599;</a></div>{% endif %}
+  {%- endif %}
+</section>
+
+<h2 class="semester">{{ sem.label }}</h2>
+<p class="semester-meta">{{ sem.time }} &middot; {{ site.data.sessions.meta.location }}</p>
+
+<div class="sessions">
+{%- for s in sem.sessions %}{% include session.html s=s %}{% endfor -%}
+</div>

@@ -1,0 +1,206 @@
+/* ---------------------------------------------------------------
+   NYU Macro Reading Group
+   One accent (NYU violet), a serif for paper titles, a sans for UI.
+   --------------------------------------------------------------- */
+
+:root {
+  --bg:      #FDFCFA;
+  --surface: #FFFFFF;
+  --text:    #16141A;
+  --muted:   #6B6570;
+  --faint:   #948E9B;
+  --accent:  #57068C;
+  --rule:    #E6E1DC;
+  --hero-bg: #FAF6FD;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:      #131115;
+    --surface: #1A171E;
+    --text:    #EDEAF0;
+    --muted:   #9A94A2;
+    --faint:   #6E6877;
+    --accent:  #C9A3E8;
+    --rule:    #2A262F;
+    --hero-bg: #1C1622;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+
+.skip {
+  position: absolute; left: -9999px;
+  background: var(--accent); color: #fff; padding: 10px 16px;
+}
+.skip:focus { left: 8px; top: 8px; z-index: 10; }
+
+/* ---------- header ---------- */
+
+header.site { padding: 56px 0 0; border-bottom: 1px solid var(--rule); }
+
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 11px; font-weight: 600; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--faint);
+}
+
+.site-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(25px, 4.6vw, 35px);
+  font-weight: 600; line-height: 1.15; letter-spacing: -.01em;
+}
+.site-title a { color: var(--text); }
+.site-title a:hover { color: var(--accent); text-decoration: none; }
+
+.site-meta { margin: 10px 0 0; color: var(--muted); font-size: 14px; }
+
+header.site nav { margin-top: 26px; display: flex; gap: 26px; }
+header.site nav a {
+  display: inline-block; padding-bottom: 12px;
+  font-size: 14px; font-weight: 500; color: var(--muted);
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+header.site nav a:hover { color: var(--text); text-decoration: none; }
+header.site nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
+
+/* ---------- next session hero ---------- */
+
+.hero {
+  margin: 40px 0 8px;
+  padding: 24px 26px;
+  background: var(--hero-bg);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
+}
+.hero[hidden] { display: none; }
+
+.hero .label {
+  margin: 0 0 12px;
+  font-size: 11px; font-weight: 600; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--accent);
+}
+.hero .when { margin: 0 0 4px; font-size: 15px; font-weight: 600; }
+.hero .title {
+  margin: 10px 0 0;
+  font-family: var(--serif); font-size: 22px; font-weight: 600; line-height: 1.25;
+}
+.hero .authors { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+.hero .who { margin: 12px 0 0; font-size: 14px; }
+.hero .links { margin: 16px 0 0; }
+
+/* ---------- session list ---------- */
+
+h2.semester {
+  margin: 44px 0 0;
+  font-family: var(--serif); font-size: 20px; font-weight: 600;
+}
+h2.semester + .semester-meta { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+
+.sessions { margin: 18px 0 0; border-top: 1px solid var(--rule); }
+
+.session {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  gap: 4px 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.session .date {
+  font-size: 13px; font-weight: 600; color: var(--muted);
+  font-variant-numeric: tabular-nums; padding-top: 3px; white-space: nowrap;
+}
+
+.session .title {
+  margin: 0;
+  font-family: var(--serif); font-size: 17px; font-weight: 600; line-height: 1.3;
+}
+.session .title a { color: inherit; }
+.session .title a:hover { color: var(--accent); }
+.session .authors { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.session .who { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.session .who strong { color: var(--text); font-weight: 500; }
+.session .links { margin: 8px 0 0; }
+
+.session.is-past { opacity: .62; }
+.session.is-empty .title { font-family: var(--sans); font-size: 15px; font-weight: 500; color: var(--faint); }
+.session.is-empty .note { margin: 2px 0 0; font-size: 13px; color: var(--faint); }
+
+.tag {
+  display: inline-block; margin-left: 8px; padding: 1px 7px;
+  border: 1px solid var(--rule); border-radius: 2px;
+  font-size: 10px; font-weight: 600; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--faint); vertical-align: 2px;
+}
+
+/* ---------- links row ---------- */
+
+.links { display: flex; flex-wrap: wrap; gap: 8px; }
+.links a {
+  display: inline-block; padding: 3px 11px;
+  border: 1px solid var(--rule); border-radius: 2px;
+  background: var(--surface);
+  font-size: 12px; font-weight: 500; color: var(--accent);
+}
+.links a:hover { border-color: var(--accent); text-decoration: none; }
+
+/* ---------- prose ---------- */
+
+.lede { margin: 34px 0 0; font-size: 17px; color: var(--muted); max-width: 60ch; }
+main h2.plain { margin: 40px 0 10px; font-family: var(--serif); font-size: 20px; font-weight: 600; }
+main p { max-width: 65ch; }
+main ul { max-width: 65ch; padding-left: 20px; }
+main li { margin: 6px 0; }
+
+/* ---------- footer ---------- */
+
+footer.site {
+  margin-top: 64px; padding: 26px 0 60px;
+  border-top: 1px solid var(--rule);
+  font-size: 13px; color: var(--muted);
+}
+footer.site p { margin: 0 0 6px; max-width: none; }
+.muted { color: var(--faint); }
+
+/* ---------- small screens ---------- */
+
+@media (max-width: 620px) {
+  .wrap { padding: 0 18px; }
+  header.site { padding-top: 34px; }
+  header.site nav { gap: 18px; }
+  .session { grid-template-columns: 1fr; gap: 0; padding: 16px 0; }
+  .session .date { padding: 0 0 5px; }
+  .hero { padding: 20px; }
+  .hero .title { font-size: 20px; }
+}
+
+/* ---------- print ---------- */
+
+@media print {
+  :root { --bg:#fff; --text:#000; --muted:#444; --accent:#000; --rule:#bbb; --hero-bg:#f4f4f4; --surface:#fff; }
+  header.site nav, footer.site, .skip { display: none; }
+  .session { break-inside: avoid; }
+  .links a { border: none; padding: 0; text-decoration: underline; }
+}

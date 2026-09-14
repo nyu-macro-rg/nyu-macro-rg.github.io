@@ -1,0 +1,199 @@
+# ============================================================================
+#  THE ONLY FILE YOU NEED TO EDIT.
+#  To add a session: copy the block above it, change the four lines, save.
+#  See README.md, section "How to add a session".
+#
+#  Fields, per session:
+#    date        required, YYYY-MM-DD
+#    presenter   who is presenting
+#    authors     the paper's authors (omit if the presenter wrote it)
+#    title       the paper's title
+#    paper_url   link to the paper (NBER / SSRN / journal / author's page)
+#    slides      path to a PDF in files/slides/, or leave it out
+#    status      leave out for a normal session. Or: tbd | cancelled | break
+#    note        a short line shown in grey, e.g. why it was cancelled
+# ============================================================================
+
+meta:
+  title: "Boar-Gertler-Gilchrist-Midrigan-Peter Macro Reading Group"
+  short_title: "NYU Macro Reading Group"
+  blurb: "A student-run reading group in macroeconomics at NYU. We meet weekly during term to discuss a recent working paper, usually presented by a student."
+  location: "19 W 4th St., Room 736"
+  organizer:
+    name: "Ariana Gamero"
+    email: "ag11136@nyu.edu"
+  archive_note: "Sessions before Fall 2025 are archived on the group's previous site."
+  archive_url: "https://sites.google.com/nyu.edu/bggmrg/home"
+
+semesters:
+
+  # ==========================================================================
+  - id: 2026-fall
+    label: "Fall 2026"
+    current: true
+    time: "Wednesdays, 12:15–1:15 p.m."
+    sessions:
+      - date: 2026-09-16
+        presenter: "Giacomo Chignoli"
+        authors: "Li, Lian, Ma, Martell"
+        title: "Borrowing Constraints, Markups, and Misallocation"
+        paper_url: "https://lianchen.github.io/website/draft_markup.pdf"
+      - date: 2026-09-23
+        status: tbd
+      - date: 2026-09-30
+        status: tbd
+      - date: 2026-10-07
+        status: tbd
+      - date: 2026-10-14
+        status: tbd
+      - date: 2026-10-21
+        status: tbd
+      - date: 2026-10-28
+        status: tbd
+      - date: 2026-11-04
+        status: tbd
+      - date: 2026-11-11
+        status: tbd
+      - date: 2026-11-18
+        status: tbd
+      - date: 2026-11-25
+        status: break
+        note: "Thanksgiving break"
+      - date: 2026-12-02
+        status: tbd
+      - date: 2026-12-09
+        status: tbd
+
+  # ==========================================================================
+  - id: 2026-spring
+    label: "Spring 2026"
+    time: "Wednesdays, 12:30–1:30 p.m."
+    sessions:
+      - date: 2026-02-11
+        presenter: "Rafael Lincoln"
+        authors: "Bellifemine, Couturier, Tozzo"
+        title: "The Sentiment Channel of Fiscal Policy"
+        paper_url: "https://marcobellifemine.com/papers/bct_draft.pdf"
+        slides: "/files/slides/2026-spring/2026-02-11-lincoln.pdf"
+      - date: 2026-02-18
+        presenter: "Isaac Leeson"
+        authors: "Ghassibe, Nakov"
+        title: "Business Cycles with Pricing Cascades"
+        paper_url: "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3123~b976468f1c.en.pdf"
+      - date: 2026-02-25
+        presenter: "Itamar Bellaïche"
+        authors: "Amador, Bianchi"
+        title: "Bank Runs, Fragility, and Regulation"
+        paper_url: "https://www.nber.org/papers/w32341"
+      - date: 2026-03-04
+        presenter: "Thomás Gleizer"
+        authors: "Hampole, Papanikolaou, Schmidt, Seegmiller"
+        title: "Artificial Intelligence and the Labor Market"
+        paper_url: "https://www.nber.org/papers/w33509"
+      - date: 2026-03-11
+        status: cancelled
+        note: "Cancelled. Hubmer and Nord, presented by Joon Sup Park, was not rescheduled."
+      - date: 2026-03-18
+        status: break
+        note: "Spring break"
+      - date: 2026-03-25
+        presenter: "Mahdi Ebsim"
+        authors: "Fan"
+        title: "The Labor Market Incidence of New Technologies"
+        paper_url: "https://arxiv.org/abs/2504.04047"
+      - date: 2026-04-01
+        presenter: "Sam Jordan-Wood"
+        authors: "Fonseca, Liu, Mabille"
+        title: "Unlocking Mortgage Lock-In: Evidence from a Spatial Housing Ladder Model"
+        paper_url: "https://www.nber.org/papers/w35237"
+      - date: 2026-04-08
+        presenter: "Giacomo Chignoli"
+        authors: "Boppart, Klenow, Laski, Li"
+        title: "Idea Rents and Firm Growth"
+        paper_url: "http://klenow.com/Idea_Rents.pdf"
+      - date: 2026-04-15
+        presenter: "Ali Bagherzadeh"
+        authors: "Baqaee, Burstein"
+        title: "Aggregate Efficiency with Heterogeneous Agents"
+        paper_url: "https://www.nber.org/papers/w34176"
+      - date: 2026-04-22
+        status: break
+        note: "No meeting"
+      - date: 2026-04-29
+        presenter: "Elena Casanovas"
+        title: "Multi-Market Firms and the Extensive Margin of Firm Growth"
+        paper_url: "https://www.elenacasanovas.com/"
+        own_work: true
+
+  # ==========================================================================
+  - id: 2025-fall
+    label: "Fall 2025"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    sessions:
+      - date: 2025-09-17
+        presenter: "Mary Zhang"
+        authors: "Bianchi, McKay, Mehrotra"
+        title: "How Should Monetary Policy Respond to Housing Inflation?"
+        paper_url: "https://www.minneapolisfed.org/research/working-papers/how-should-monetary-policy-respond-to-housing-inflation"
+      - date: 2025-09-24
+        presenter: "Arnav Deshpande"
+        title: "The Aggregate Effects of Workfare Programs"
+        paper_url: "https://deshpande-arnav.github.io/sites/"
+        own_work: true
+      - date: 2025-10-01
+        presenter: "Rafael Lincoln"
+        authors: "Beaudry, Collard, Fève, Guay, Portier"
+        title: "Dynamic Identification in VARs"
+        paper_url: "https://www.nber.org/papers/w32598"
+        slides: "/files/slides/2025-fall/2025-10-01-lincoln.pdf"
+      - date: 2025-10-08
+        presenter: "Joon Sup Park"
+        authors: "Engbom, Malmberg, Porzio, Rossi, Schoellman"
+        title: "Economic Development According to Chandler"
+        paper_url: "https://www.nber.org/papers/w34483"
+      - date: 2025-10-15
+        presenter: "Thomás Gleizer"
+        authors: "Elenev, Landvoigt, Van Nieuwerburgh"
+        title: "The Austerity Threshold"
+        paper_url: "https://www.nber.org/papers/w34397"
+      - date: 2025-10-22
+        presenter: "Robin Li"
+        authors: "Dao, Gourinchas, Itskhoki"
+        title: "Breaking Parity: Equilibrium Exchange Rates and Currency Premia"
+        paper_url: "https://www.nber.org/papers/w34443"
+        slides: "/files/slides/2025-fall/2025-10-22-li.pdf"
+      - date: 2025-10-29
+        presenter: "Giacomo Chignoli and Giovanni Brocca"
+        authors: "Guntin, Kochen"
+        title: "The Origins of Top Firms"
+        paper_url: "https://www.bde.es/wbe/en/publicaciones/analisis-economico-investigacion/documentos-trabajo/the-origins-of-top-firms.html"
+      - date: 2025-11-05
+        presenter: "Kerry Neitzel"
+        authors: "Jarosch, Pilossoph, Swaminathan"
+        title: "Should Friday be the New Saturday? Hours Worked and Hours Wanted"
+        paper_url: "https://www.nber.org/papers/w33577"
+        slides: "/files/slides/2025-fall/2025-11-05-neitzel.pdf"
+      - date: 2025-11-12
+        presenter: "Sam Jordan-Wood"
+        authors: "Bhandari, Martellini, McGrattan"
+        title: "Capital Reallocation and Private Firm Dynamics"
+        paper_url: "https://www.nber.org/papers/w34319"
+        slides: "/files/slides/2025-fall/2025-11-12-jordan-wood.pdf"
+      - date: 2025-11-19
+        presenter: "Francisco Terfi"
+        authors: "Werning, Lorenzoni, Guerrieri"
+        title: "Tariffs as Cost-Push Shocks: Implications for Optimal Monetary Policy"
+        paper_url: "https://www.nber.org/papers/w33772"
+      - date: 2025-11-26
+        status: break
+        note: "Thanksgiving break"
+      - date: 2025-12-03
+        presenter: "Olalekan Bello"
+        authors: "Aghion, Boppart, Peters, Schwartzman, Zilibotti"
+        title: "A Theory of Endogenous Degrowth and Environmental Sustainability"
+        paper_url: "https://www.nber.org/papers/w33634"
+      - date: 2025-12-10
+        presenter: "Isaac Leeson"
+        authors: "Jones"
+        title: "How Much Should We Spend to Reduce AI's Existential Risk?"
+        paper_url: "https://www.nber.org/books-and-chapters/economics-transformative-ai/how-much-should-we-spend-reduce-ais-existential-risk"

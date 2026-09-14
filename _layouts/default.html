@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.data.sessions.meta.short_title }}</title>
+<meta name="description" content="{{ site.data.sessions.meta.blurb }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap">
+    <p class="eyebrow">New York University</p>
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.data.sessions.meta.title }}</a></h1>
+    <p class="site-meta">{{ site.data.sessions.meta.location }}</p>
+    <nav>
+      <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Schedule</a>
+      <a href="{{ '/archive/' | relative_url }}"{% if page.nav == 'archive' %} aria-current="page"{% endif %}>Past sessions</a>
+      <a href="{{ '/resources/' | relative_url }}"{% if page.nav == 'resources' %} aria-current="page"{% endif %}>For presenters</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+{{ content }}
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Organized by {{ site.data.sessions.meta.organizer.name }}
+       (<a href="mailto:{{ site.data.sessions.meta.organizer.email }}">{{ site.data.sessions.meta.organizer.email }}</a>).
+       Email to join the mailing list.</p>
+    <p class="muted">{{ site.data.sessions.meta.archive_note }}
+       <a href="{{ site.data.sessions.meta.archive_url }}">Previous site</a>.</p>
+  </div>
+</footer>
+
+<script src="{{ '/assets/next-session.js' | relative_url }}" defer></script>
+</body>
+</html>

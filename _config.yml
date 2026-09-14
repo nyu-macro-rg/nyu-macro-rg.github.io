@@ -1,0 +1,14 @@
+title: "NYU Macro Reading Group"
+description: "Boar-Gertler-Gilchrist-Midrigan-Peter Macro Reading Group at New York University."
+url: "https://nyu-macro-rg.github.io"
+
+# Files that are not part of the published site.
+exclude:
+  - README.md
+  - quality_reports
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# No theme gem: layouts live in _layouts/ and are self-contained.
+plugins: []

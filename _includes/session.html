@@ -1,0 +1,30 @@
+{%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- assign dnum  = include.s.date | date: "%Y%m%d" | plus: 0 -%}
+{%- assign st    = include.s.status -%}
+<div class="session{% if st %} is-empty{% endif %}{% if dnum < today %} is-past{% endif %}" data-date="{{ include.s.date | date: '%Y-%m-%d' }}"{% if st %} data-status="{{ st }}"{% endif %}>
+  <div class="date">{{ include.s.date | date: "%b&nbsp;%-d" }}</div>
+  <div class="body">
+    {%- if st == 'tbd' %}
+      <p class="title">To be announced</p>
+    {%- elsif st %}
+      <p class="title">{% if st == 'break' %}No meeting{% else %}Cancelled{% endif %}</p>
+      {%- if include.s.note %}<p class="note">{{ include.s.note }}</p>{% endif -%}
+    {%- else %}
+      <h3 class="title">
+        {%- if include.s.paper_url -%}
+          <a href="{{ include.s.paper_url }}">{{ include.s.title }}</a>
+        {%- else -%}
+          {{ include.s.title }}
+        {%- endif -%}
+      </h3>
+      {%- if include.s.authors %}<p class="authors">{{ include.s.authors }}</p>{% endif -%}
+      <p class="who">Presented by <strong>{{ include.s.presenter }}</strong>{% if include.s.own_work %}<span class="tag">own work</span>{% endif %}</p>
+      {%- if include.s.paper_url or include.s.slides %}
+      <div class="links">
+        {%- if include.s.paper_url %}<a href="{{ include.s.paper_url }}">Paper&nbsp;&#8599;</a>{% endif -%}
+        {%- if include.s.slides %}<a href="{{ include.s.slides | relative_url }}">Slides&nbsp;(PDF)</a>{% endif -%}
+      </div>
+      {%- endif -%}
+    {%- endif %}
+  </div>
+</div>

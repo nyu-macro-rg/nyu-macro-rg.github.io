@@ -1,0 +1,16 @@
+---
+layout: default
+nav: archive
+title: Past sessions
+permalink: /archive/
+---
+<p class="lede">Every session since Fall 2025. {{ site.data.sessions.meta.archive_note }}
+<a href="{{ site.data.sessions.meta.archive_url }}">Previous site</a>.</p>
+
+{%- for sem in site.data.sessions.semesters %}{% unless sem.current %}
+<h2 class="semester">{{ sem.label }}</h2>
+<p class="semester-meta">{{ sem.time }} &middot; {{ site.data.sessions.meta.location }}</p>
+<div class="sessions">
+{%- for s in sem.sessions %}{% include session.html s=s %}{% endfor -%}
+</div>
+{% endunless %}{% endfor -%}
