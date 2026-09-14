@@ -101,3 +101,22 @@ Slides are nonetheless published only where the presenter sent them to Rafael fo
 
 Deck-to-session mapping above is inferred from filenames and **must be confirmed by opening
 each title slide** before publishing.
+
+## Papers retitled after they were presented
+
+Two papers were renamed by their authors after the session. The site shows the title **as
+presented** (that is the historical record of what the group discussed) and links to the
+current canonical version. Do not "correct" these to match the destination page.
+
+| Session | Title as presented | Current title at the link |
+|---|---|---|
+| 2026-04-01, Sam Jordan-Wood | Unlocking Mortgage Lock-In: Evidence from a Spatial Housing Ladder Model | Unlocking Mortgage Lock-In: **Equilibrium Effects** in a Spatial Housing Ladder Model (NBER w35237) |
+| 2026-04-15, Ali Bagherzadeh | Aggregate **Efficiency** with Heterogeneous Agents | Aggregate **Productivity** with Heterogeneous Agents (NBER w34176) |
+
+## Links that intentionally point at an author's homepage
+
+Two sessions were unpublished student work in progress with no public paper. These link to
+the author's page rather than a PDF, and an automated title check will always flag them.
+
+- 2025-09-24, Arnav Deshpande, *The Aggregate Effects of Workfare Programs* → `deshpande-arnav.github.io`
+- 2026-04-29, Elena Casanovas, *Multi-Market Firms and the Extensive Margin of Firm Growth* → `elenacasanovas.com`
