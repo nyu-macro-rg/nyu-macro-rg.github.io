@@ -1,16 +1,35 @@
 # ============================================================================
-#  THE ONLY FILE YOU NEED TO EDIT.
-#  To add a session: copy the block above it, change the four lines, save.
-#  See README.md, section "How to add a session".
+#  ALL SITE CONTENT LIVES HERE. Adding a session is an edit to this file.
+#  See README.md, "How to add a session". Copy a nearby session block and
+#  change the words; do not type a new one from scratch, and never use tabs.
 #
-#  Fields, per session:
+#  Semester fields:
+#    id          required, e.g. 2027-spring
+#    label       required, e.g. "Spring 2027"
+#    current     true on EXACTLY ONE semester: the one shown on the front page.
+#                Every other semester appears under Past sessions.
+#    time        required, e.g. "Wednesdays, 12:15-1:15 p.m."
+#                The front page takes the part after the comma as the time, so
+#                keep that comma. Or set time_short to control it directly.
+#    time_short  optional, e.g. "12:15-1:15 p.m."
+#    location    optional; falls back to meta.location. Omit only if genuinely
+#                unknown (archived semesters), never to save typing.
+#    archived    optional, true for semesters imported from the old Google Site
+#    source_url  required when archived, the old site page it came from
+#
+#  Session fields:
 #    date        required, YYYY-MM-DD
 #    presenter   who is presenting
-#    authors     the paper's authors (omit if the presenter wrote it)
+#    authors     the paper's authors. Omit and set own_work instead if the
+#                presenter wrote it.
+#    own_work    optional, true renders an "own work" tag
 #    title       the paper's title
 #    paper_url   link to the paper (NBER / SSRN / journal / author's page)
-#    slides      path to a PDF in files/slides/, or leave it out
-#    status      leave out for a normal session. Or: tbd | cancelled | break
+#    slides      path to a PDF in files/slides/, e.g.
+#                "/files/slides/2026-fall/2026-09-23-doe.pdf"
+#    status      omit for a normal session. Otherwise exactly one of:
+#                tbd | break | cancelled   (lowercase)
+#                Anything else is treated as tbd.
 #    note        a short line shown in grey, e.g. why it was cancelled
 # ============================================================================
 

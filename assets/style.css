@@ -8,7 +8,7 @@
   --surface: #FFFFFF;
   --text:    #16141A;
   --muted:   #6B6570;
-  --faint:   #948E9B;
+  --faint:   #77717E;
   --accent:  #57068C;
   --rule:    #E6E1DC;
   --hero-bg: #FAF6FD;
@@ -22,7 +22,7 @@
     --surface: #1A171E;
     --text:    #EDEAF0;
     --muted:   #9A94A2;
-    --faint:   #6E6877;
+    --faint:   #8F8899;
     --accent:  #C9A3E8;
     --rule:    #2A262F;
     --hero-bg: #1C1622;
@@ -50,7 +50,7 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 .skip {
   position: absolute; left: -9999px;
-  background: var(--accent); color: #fff; padding: 10px 16px;
+  background: var(--accent); color: var(--bg); padding: 10px 16px;
 }
 .skip:focus { left: 8px; top: 8px; z-index: 10; }
 
@@ -206,3 +206,29 @@ footer.site p { margin: 0 0 6px; max-width: none; }
 }
 
 .archived-note { margin-top: 2px; font-size: 13px; }
+
+/* ---------- corrections from review ---------- */
+
+/* `.links` and `.hero .authors` set display explicitly, and an author-origin
+   `display` beats the UA's `[hidden] { display:none }` on origin, not
+   specificity. Without this, a hero field the script tries to hide stays
+   visible with stale build-time content. */
+[hidden] { display: none !important; }
+
+.hero .where { margin: 2px 0 0; font-size: 15px; color: var(--muted); }
+
+/* Keyboard focus must be visible everywhere, not just on the skip link. */
+a:focus-visible, :focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Three nav items at 14px need ~288px; an iPhone SE offers 284px. */
+header.site nav { flex-wrap: wrap; }
+
+@media print {
+  /* The archive is entirely past; printing it at 62% ink is unreadable. */
+  .session.is-past { opacity: 1; }
+  :root { --faint: #555; }
+}

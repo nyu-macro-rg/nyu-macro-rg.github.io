@@ -2,31 +2,37 @@
 layout: default
 nav: home
 ---
-{%- assign sem = site.data.sessions.semesters | where: "current", true | first -%}
+{%- include current.html -%}
+{%- assign sem = cur -%}
 {%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- assign rows = sem.sessions | sort: "date" -%}
 
 <p class="lede">{{ site.data.sessions.meta.blurb }}</p>
 
 {%- comment -%}
-  The hero is rendered server-side for the first upcoming session, then corrected
-  on load by assets/next-session.js so it stays right between pushes.
+  Rendered server-side for the first upcoming session, then corrected on load by
+  assets/next-session.js so it stays right between pushes. Every [data-field] is
+  emitted unconditionally (hidden when empty) so the script always has somewhere
+  to write, even if the build-time session had fewer fields than the live one.
 {%- endcomment -%}
 {%- assign nxt = nil -%}
-{%- for s in sem.sessions -%}
+{%- for s in rows -%}
   {%- assign d = s.date | date: "%Y%m%d" | plus: 0 -%}
   {%- if nxt == nil and d >= today and s.status == nil -%}{%- assign nxt = s -%}{%- endif -%}
 {%- endfor -%}
+{%- assign loc = sem.location | default: site.data.sessions.meta.location -%}
 
-<section class="hero" id="next-session" data-time="{{ sem.time | split: ', ' | last }}"{% unless nxt %} hidden{% endunless %}>
+<section class="hero" id="next-session" data-time="{{ sem.time_short | default: sem.time | split: ', ' | last }}"{% unless nxt %} hidden{% endunless %}>
   <p class="label">Next session</p>
-  {%- if nxt %}
-  <p class="when" data-field="when">{{ nxt.date | date: "%A, %B %-d" }} &middot; {{ sem.time | split: ", " | last }}</p>
-  <p class="when" style="font-weight:400;color:var(--muted)" data-field="where">{{ sem.location | default: site.data.sessions.meta.location }}</p>
-  <h2 class="title" data-field="title">{% if nxt.paper_url %}<a href="{{ nxt.paper_url }}">{{ nxt.title }}</a>{% else %}{{ nxt.title }}{% endif %}</h2>
-  {%- if nxt.authors %}<p class="authors" data-field="authors">{{ nxt.authors }}</p>{% endif %}
-  <p class="who" data-field="who">Presented by <strong>{{ nxt.presenter }}</strong></p>
-  {%- if nxt.paper_url %}<div class="links" data-field="links"><a href="{{ nxt.paper_url }}">Paper&nbsp;&#8599;</a></div>{% endif %}
-  {%- endif %}
+  <p class="when" data-field="when">{% if nxt %}{{ nxt.date | date: "%A, %B %-d" }} &middot; {{ sem.time_short | default: sem.time | split: ", " | last }}{% endif %}</p>
+  <p class="where" data-field="where">{{ loc }}</p>
+  <h2 class="title" data-field="title"{% unless nxt %} hidden{% endunless %}>{% if nxt %}{% if nxt.paper_url %}<a href="{{ nxt.paper_url }}">{{ nxt.title | escape }}</a>{% else %}{{ nxt.title | escape }}{% endif %}{% endif %}</h2>
+  <p class="authors" data-field="authors"{% unless nxt.authors %} hidden{% endunless %}>{{ nxt.authors | escape }}</p>
+  <p class="who" data-field="who"{% unless nxt %} hidden{% endunless %}>{% if nxt %}Presented by <strong>{{ nxt.presenter | escape }}</strong>{% if nxt.own_work %}<span class="tag">own work</span>{% endif %}{% endif %}</p>
+  <div class="links" data-field="links"{% unless nxt.paper_url or nxt.slides %} hidden{% endunless %}>
+    {%- if nxt.paper_url %}<a href="{{ nxt.paper_url }}">Paper&nbsp;&#8599;</a>{% endif -%}
+    {%- if nxt.slides %}<a href="{{ nxt.slides | relative_url }}">Slides&nbsp;(PDF)</a>{% endif -%}
+  </div>
 </section>
 
 {% include semester.html sem=sem %}

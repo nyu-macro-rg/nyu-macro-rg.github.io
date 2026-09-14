@@ -1,9 +1,15 @@
 # Session data provenance
 
-Every published session traces to a dated primary source. Built 2026-09-14 for the initial
-site launch. **Announcement emails are authoritative**: they were sent one to two days before
-each session and reflect what actually happened. The planning workbook and the hand-written
-context file record what was *intended*, and in three cases the two disagree.
+Sessions fall into **two tiers of evidence**, and the difference matters.
+
+**Fall 2025 onward (22 sessions): primary sources.** Every one traces to a dated announcement
+email. **Announcement emails are authoritative**: they were sent one to two days before each
+session and reflect what actually happened. The planning workbook and the hand-written context
+file record what was *intended*, and in three cases the two disagree.
+
+**Fall 2019 through Spring 2025 (160 sessions): scraped, unverified.** See "The archived years"
+at the end of this file. These were recovered from the group's previous website and have not
+been checked against any independent source.
 
 Confidence key:
 - **A** = confirmed by that session's own announcement email (presenter + paper + date).
@@ -120,3 +126,47 @@ the author's page rather than a PDF, and an automated title check will always fl
 
 - 2025-09-24, Arnav Deshpande, *The Aggregate Effects of Workfare Programs* → `deshpande-arnav.github.io`
 - 2026-04-29, Elena Casanovas, *Multi-Market Firms and the Extensive Margin of Firm Growth* → `elenacasanovas.com`
+
+
+---
+
+# The archived years (Fall 2019 through Spring 2025)
+
+**Source.** All 160 sessions were scraped on **2026-09-14** from the twelve semester pages of
+`https://sites.google.com/nyu.edu/bggmrg/`, one page per semester (`/fall-2019` through
+`/spring-2025`). Each archived semester on the new site links back to the exact page it came
+from via its `source_url`.
+
+**Why they were copied at all.** That site is orphaned. It is owned by Fernando Cirelli, who
+graduated and is now at Columbia; its storage is full; and as of 2025-09-11 neither the
+then-organizer nor his successor could edit it even after being granted access. If the account
+is ever purged, the record of what this group read for six years disappears. Copying the
+schedule metadata is cheap insurance against that.
+
+**Confidence: LOWER than the Fall 2025 onward entries. Treat with appropriate caution.**
+
+- Not verified against announcement emails, departmental calendars, or any second source.
+- Transcribed from rendered HTML, so author lists and paper titles carry whatever errors the
+  original site had, plus any introduced in transcription. Obvious typos in the source were
+  silently corrected where the intended name was unambiguous (for example "Monosopy" to
+  "Monopsony", "Gennaiolo" to "Gennaioli", "Ottonelo" to "Ottonello", "Zambranco" to
+  "Zambrano", "Dreschel" to "Drechsel"). This is a judgement call and some corrections may be
+  wrong.
+- The old site recorded **what was scheduled**, not necessarily what was presented. Fall 2025
+  taught us these differ: three of twenty-two sessions that year departed from the plan. The
+  same slippage rate almost certainly applies to the archived years, and nothing here would
+  detect it.
+- Only date, presenter, authors and title were taken. **No paper or slide links were copied**,
+  so every archived session still depends on the old site for its artifacts.
+
+**What is deliberately absent.** Fall 2021 and Spring 2022 have no `location` because the old
+site did not state one. The template leaves the room blank rather than inheriting today's
+Room 736, which would assert a fact not in evidence.
+
+**Meeting day and room moved repeatedly** across these years, so both are recorded per
+semester rather than globally: Wednesdays in 2019, Tuesdays in Spring 2020 and Spring 2021,
+back to Wednesdays in Fall 2021, Tuesdays again through 2024, Wednesdays from Spring 2025.
+Fall 2020 and Spring 2021 met on Zoom. Spring 2024 met in Room 624, Spring 2020 in Room 831.
+
+**If you are correcting one of these entries,** an announcement email from that semester or the
+presenter's own memory both outrank what is written here.

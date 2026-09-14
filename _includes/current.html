@@ -1,0 +1,8 @@
+{%- comment -%}
+Resolves the current semester defensively. If nobody is flagged `current: true`
+(or more than one is), the site still renders every semester somewhere instead
+of silently dropping one. index.html shows `cur`; archive.html shows everything
+whose id differs from it.
+{%- endcomment -%}
+{%- assign cur = site.data.sessions.semesters | where: "current", true | first -%}
+{%- unless cur %}{% assign cur = site.data.sessions.semesters | first %}{% endunless -%}

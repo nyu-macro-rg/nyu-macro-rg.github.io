@@ -1,8 +1,15 @@
+# Note: the site's visible name, blurb, room and organizer all live in
+# _data/sessions.yml under `meta:`, not here. Editing the two keys below
+# changes nothing on the page; they exist because Jekyll expects them.
 title: "NYU Macro Reading Group"
 description: "Boar-Gertler-Gilchrist-Midrigan-Peter Macro Reading Group at New York University."
 url: "https://nyu-macro-rg.github.io"
 
-# Files that are not part of the published site.
+# GitHub Pages builds in UTC. Without this, `site.time` is a day ahead of New
+# York between 8pm and midnight, which would mark a session past too early in
+# the no-JavaScript rendering.
+timezone: America/New_York
+
 exclude:
   - README.md
   - quality_reports
@@ -10,5 +17,4 @@ exclude:
   - Gemfile.lock
   - vendor
 
-# No theme gem: layouts live in _layouts/ and are self-contained.
 plugins: []

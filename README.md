@@ -42,9 +42,14 @@ YAML cares about spaces. The safest method is to **copy an existing session bloc
 the words**, rather than typing a new one. Every session starts with `- date:` at the same
 indentation as the one above it. Never use tab characters.
 
-If you make a mistake, the site keeps showing the last good version and GitHub emails you
-that the build failed. Nothing breaks permanently. Undo by opening the file's **History** and
-reverting your change.
+If you break the *formatting*, the site keeps showing the last good version and GitHub emails
+you that the build failed. Undo by opening the file's **History** and reverting your change.
+
+Be aware of the one mistake that does **not** announce itself: `current: true` must appear on
+exactly one semester. That is valid YAML either way, so the build succeeds and no email is
+sent. If two semesters are flagged, the front page shows one of them and the site quietly
+behaves as though you meant it. Whenever you start a new semester, load the front page **and**
+the Past sessions page and check that every semester appears on exactly one of them.
 
 ---
 
@@ -88,7 +93,12 @@ Copy the whole `- id: 2026-fall` block, paste it above the old one, and:
 - move `current: true` to the new block and **delete it from the old one**, exactly one
   semester is ever current,
 - set `time:` to the meeting time for that semester (it has changed before),
-- replace the sessions with the term's Wednesdays, each as `status: tbd`.
+- replace the sessions with the term's Wednesdays, each as `status: tbd`,
+- set `location:` if the room changed (it has, several times),
+- leave `archived:` and `source_url:` out. Those two belong only to the semesters imported
+  from the old Google Site.
+
+Then check the front page and Past sessions, per the warning above.
 
 ### Cancel a session or mark a break
 
@@ -108,8 +118,12 @@ Top of `_data/sessions.yml`, under `meta:` (room, organizer) or on the semester 
 ### Hand the site to the next organizer
 
 Go to the organization's **People** page, add them, and set their role to **Owner**. Do this
-*before* you lose access to your NYU account. The site has three owners so that it never
-depends on one person; keep it that way.
+*before* you lose access to your NYU account.
+
+Keep at least three owners, and make sure **at least one of them is not a graduating student**
+(a faculty member is ideal). This is the whole reason the site was rebuilt: the previous one
+was owned by a student who graduated, and once he left, nobody could edit it. Two student
+owners only delays that by a year. Check the People page now and fix it if it is short.
 
 ---
 
@@ -135,12 +149,40 @@ every year, and every moving part is something that can break while nobody is wa
 | `_data/sessions.yml` | All the content. The only file most people ever touch. |
 | `_layouts/default.html` | Page shell, header, nav, footer. |
 | `_includes/session.html` | Renders one row of the schedule. |
+| `_includes/semester.html` | Renders a semester heading plus its sessions, sorted by date. |
+| `_includes/current.html` | Works out which semester is "current", defensively. |
+| `404.html` | Shown for a mistyped URL. |
 | `index.html` | Current semester and the "next session" panel. |
 | `archive.html` | Every past semester. |
 | `resources.html` | Guidance for presenters. |
 | `assets/style.css` | All styling. |
 | `assets/next-session.js` | ~70 lines. Recomputes which session is next using the visitor's clock, so the front page stays correct even if nobody pushes for months. |
 | `files/` | Slide PDFs and the presentation-tips handout. |
-| `quality_reports/provenance.md` | Where every listed session came from, and three places the historical record was wrong. |
+| `quality_reports/provenance.md` | Where every listed session came from, three places the historical record was wrong, and which entries are less reliable. |
 
 Papers are linked, never hosted. Slides are hosted, with the presenter's agreement.
+
+
+---
+
+## Things that will break eventually
+
+Written down because the person who hits them will not be the person who built this.
+
+**The old Google Site will die.** Everything before Fall 2025 on the Past sessions page links
+to `sites.google.com/nyu.edu/bggmrg` for its papers and slides. That site is orphaned: owned by
+a student who graduated, storage full, uneditable by anyone still here. We copied the
+*schedules* across so the record survives, but not the files. When those links start 404ing,
+the fix is to delete the "Papers and slides for this semester are on the previous site" line
+by removing `source_url` from those semesters. The session listings themselves will be fine.
+
+**Archived sessions are less reliable than recent ones.** The pre-2025 entries were scraped
+from that site and never verified. They record what was *scheduled*, which is not always what
+was presented. If someone tells you their entry is wrong, believe them and fix it.
+
+**Nobody is checking the paper links.** They were all live at launch. Working-paper URLs move.
+If you have a spare ten minutes at the start of a term, clicking through the current semester
+is worth it.
+
+**GitHub will change its interface.** The click-by-click instructions above will drift.
+The underlying idea will not: edit one YAML file in the browser, commit, wait a minute.

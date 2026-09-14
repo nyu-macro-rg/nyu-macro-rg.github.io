@@ -4,17 +4,20 @@ nav: archive
 title: Past sessions
 permalink: /archive/
 ---
+{%- include current.html -%}
 {%- assign n = 0 -%}
+{%- assign earliest = site.data.sessions.semesters | last -%}
 {%- for sem in site.data.sessions.semesters -%}
-  {%- unless sem.current -%}
+  {%- unless sem.id == cur.id -%}
     {%- for s in sem.sessions -%}{%- unless s.status -%}{%- assign n = n | plus: 1 -%}{%- endunless -%}{%- endfor -%}
   {%- endunless -%}
 {%- endfor -%}
 
-<p class="lede">{{ n }} sessions since Fall 2019. Entries from Fall 2025 onward link to the
-paper and, where the presenter shared them, the slides. Earlier entries were recovered from
-the group's previous site, which is no longer maintained; their files are still hosted there.</p>
+<p class="lede">{{ n }} sessions since {{ earliest.label }}. Recent entries link to the paper
+and, where the presenter shared them, the slides. Earlier semesters were recovered from the
+group's previous site, which is no longer maintained; their papers and slides are still
+hosted there and each semester links out to it.</p>
 
-{%- for sem in site.data.sessions.semesters %}{% unless sem.current %}
-{% include semester.html sem=sem %}
+{%- for sem in site.data.sessions.semesters %}{% unless sem.id == cur.id %}
+{% include semester.html sem=sem no_past=true %}
 {% endunless %}{% endfor -%}

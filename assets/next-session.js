@@ -29,14 +29,17 @@
   var today = startOfToday();
   var rows = Array.prototype.slice.call(document.querySelectorAll(".session[data-date]"));
 
+  // Only the current-semester page has a hero. The archive is entirely past, so
+  // greying it there would say nothing and would dim every row on the page.
+  var hero = document.getElementById("next-session");
+  if (!hero) return;
+
   // 1. Re-apply the past/upcoming styling against the real clock.
   rows.forEach(function (row) {
     row.classList.toggle("is-past", localDate(row.dataset.date) < today);
   });
 
   // 2. Rebuild the hero from the first upcoming real session on this page.
-  var hero = document.getElementById("next-session");
-  if (!hero) return;
 
   var next = null;
   for (var i = 0; i < rows.length; i++) {
@@ -62,10 +65,11 @@
       var target = hero.querySelector('[data-field="' + pair[0] + '"]');
       var source = next.querySelector(pair[1]);
       if (!target) return;
-      if (source) {
+      if (source && source.innerHTML.trim() !== "") {
         target.innerHTML = source.innerHTML;
         target.hidden = false;
       } else {
+        target.innerHTML = "";
         target.hidden = true;
       }
     });
