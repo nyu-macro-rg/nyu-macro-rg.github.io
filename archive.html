@@ -4,13 +4,17 @@ nav: archive
 title: Past sessions
 permalink: /archive/
 ---
-<p class="lede">Every session since Fall 2025. {{ site.data.sessions.meta.archive_note }}
-<a href="{{ site.data.sessions.meta.archive_url }}">Previous site</a>.</p>
+{%- assign n = 0 -%}
+{%- for sem in site.data.sessions.semesters -%}
+  {%- unless sem.current -%}
+    {%- for s in sem.sessions -%}{%- unless s.status -%}{%- assign n = n | plus: 1 -%}{%- endunless -%}{%- endfor -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+<p class="lede">{{ n }} sessions since Fall 2019. Entries from Fall 2025 onward link to the
+paper and, where the presenter shared them, the slides. Earlier entries were recovered from
+the group's previous site, which is no longer maintained; their files are still hosted there.</p>
 
 {%- for sem in site.data.sessions.semesters %}{% unless sem.current %}
-<h2 class="semester">{{ sem.label }}</h2>
-<p class="semester-meta">{{ sem.time }} &middot; {{ site.data.sessions.meta.location }}</p>
-<div class="sessions">
-{%- for s in sem.sessions %}{% include session.html s=s %}{% endfor -%}
-</div>
+{% include semester.html sem=sem %}
 {% endunless %}{% endfor -%}

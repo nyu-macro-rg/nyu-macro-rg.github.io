@@ -204,3 +204,5 @@ footer.site p { margin: 0 0 6px; max-width: none; }
   .session { break-inside: avoid; }
   .links a { border: none; padding: 0; text-decoration: underline; }
 }
+
+.archived-note { margin-top: 2px; font-size: 13px; }

@@ -21,7 +21,7 @@ nav: home
   <p class="label">Next session</p>
   {%- if nxt %}
   <p class="when" data-field="when">{{ nxt.date | date: "%A, %B %-d" }} &middot; {{ sem.time | split: ", " | last }}</p>
-  <p class="when" style="font-weight:400;color:var(--muted)" data-field="where">{{ site.data.sessions.meta.location }}</p>
+  <p class="when" style="font-weight:400;color:var(--muted)" data-field="where">{{ sem.location | default: site.data.sessions.meta.location }}</p>
   <h2 class="title" data-field="title">{% if nxt.paper_url %}<a href="{{ nxt.paper_url }}">{{ nxt.title }}</a>{% else %}{{ nxt.title }}{% endif %}</h2>
   {%- if nxt.authors %}<p class="authors" data-field="authors">{{ nxt.authors }}</p>{% endif %}
   <p class="who" data-field="who">Presented by <strong>{{ nxt.presenter }}</strong></p>
@@ -29,9 +29,4 @@ nav: home
   {%- endif %}
 </section>
 
-<h2 class="semester">{{ sem.label }}</h2>
-<p class="semester-meta">{{ sem.time }} &middot; {{ site.data.sessions.meta.location }}</p>
-
-<div class="sessions">
-{%- for s in sem.sessions %}{% include session.html s=s %}{% endfor -%}
-</div>
+{% include semester.html sem=sem %}

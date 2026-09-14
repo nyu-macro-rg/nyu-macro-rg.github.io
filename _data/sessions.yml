@@ -22,7 +22,7 @@ meta:
   organizer:
     name: "Ariana Gamero"
     email: "ag11136@nyu.edu"
-  archive_note: "Sessions before Fall 2025 are archived on the group's previous site."
+  archive_note: "Sessions from Fall 2019 onward are listed under Past sessions. Papers and slides from before Fall 2025 are still hosted on the group's previous site."
   archive_url: "https://sites.google.com/nyu.edu/bggmrg/home"
 
 semesters:
@@ -197,3 +197,788 @@ semesters:
         authors: "Jones"
         title: "How Much Should We Spend to Reduce AI's Existential Risk?"
         paper_url: "https://www.nber.org/books-and-chapters/economics-transformative-ai/how-much-should-we-spend-reduce-ais-existential-risk"
+
+  # ==========================================================================
+  - id: 2025-spring
+    label: "Spring 2025"
+    time: "Wednesdays, 12:30–1:30 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2025"
+    sessions:
+      - date: 2025-01-29
+        presenter: "Francesco Boninsegna"
+        authors: "Barro, Bianchi"
+        title: "Fiscal Influences on Inflation in OECD Countries, 2020-2023"
+      - date: 2025-02-05
+        presenter: "Rishabh Malhotra"
+        authors: "Gouin-Bonenfant, Gomez"
+        title: "Capital Income in an Intangible Economy"
+      - date: 2025-02-12
+        presenter: "Al-Mahdi Ebsim"
+        authors: "Ebsim"
+        title: "Precautionary Pricing"
+      - date: 2025-02-19
+        presenter: "Benjamin Castiglione"
+        authors: "Alessandria et al."
+        title: "Trade-Policy Dynamics: Evidence from 60 Years of U.S.-China Trade"
+      - date: 2025-02-26
+        presenter: "Anna French"
+        authors: "Aron-Dine"
+        title: "Rebuild or Relocate? Recovery after Natural Disasters"
+      - date: 2025-03-05
+        presenter: "Robin Li"
+        authors: "Kekre, Lenel"
+        title: "Exchange Rates, Natural Rates and the Price of Risk"
+      - date: 2025-03-12
+        presenter: "Saverio Spinella"
+        authors: "Malgieri, Citino"
+        title: "Wage Contracts and Financial Frictions"
+      - date: 2025-03-19
+        presenter: "Mary Zhang"
+        authors: "Hazell, Hobler"
+        title: "Do Deficits Cause Inflation? A High Frequency Narrative Approach"
+      - date: 2025-03-26
+        status: break
+        note: "Spring break"
+      - date: 2025-04-02
+        presenter: "Olalekan Bello"
+        authors: "Casal"
+        title: "Lock-In and Productive Innovations"
+      - date: 2025-04-09
+        presenter: "Lorenzo Vacca"
+        authors: "Chodorow-Reich et al."
+        title: "Stock Market Wealth and Entrepreneurship"
+      - date: 2025-04-16
+        presenter: "Francesco Boninsegna"
+        own_work: true
+        title: "Why Do Workers Dislike Inflation? Wage Erosion and Conflict Costs"
+      - date: 2025-04-23
+        presenter: "Bill Shu"
+        authors: "Antolin-Diaz"
+        title: "How did Government Bonds Become Safe?"
+      - date: 2025-04-30
+        presenter: "Peter Liu"
+        authors: "Gaillard et al."
+        title: "Consumption, Wealth, and Income Inequality: A Tale of Tails"
+
+  # ==========================================================================
+  - id: 2024-fall
+    label: "Fall 2024"
+    time: "Tuesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2024"
+    sessions:
+      - date: 2024-09-11
+        presenter: "Bill Shu"
+        authors: "Selgrad"
+        title: "Testing the Portfolio Rebalancing Channel of Quantitative Easing"
+      - date: 2024-09-18
+        presenter: "Sergio Florez-Orrego and Kerry Neitzel"
+        authors: "Aguiar, Moll, Scheuer"
+        title: "Putting the Finance into Public Finance: A Theory of Capital Gains Taxation"
+      - date: 2024-09-25
+        presenter: "Hyein Han"
+        authors: "Fukui, Gormsen, Huber"
+        title: "Sticky Discount Rates"
+      - date: 2024-10-02
+        presenter: "Joon Kim"
+        authors: "Beraja, Buera"
+        title: "The Life-Cycle of Concentrated Industries"
+      - date: 2024-10-09
+        presenter: "Rishabh Malhotra"
+        authors: "Lhuillier"
+        title: "Should I Stay or Should I Grow? How Cities Affect Learning, Inequality, and Productivity"
+      - date: 2024-10-16
+        presenter: "Lorenzo Vacca"
+        authors: "Karadi, Nakov, Nuno, Pasten, Thaler"
+        title: "Strike while the Iron is Hot: Optimal Monetary Policy with a Nonlinear Phillips Curve"
+      - date: 2024-10-23
+        presenter: "Tor Frederik-Grondahl"
+        authors: "Cram, Kung, Lustig"
+        title: "Can US Treasury Markets Add and Subtract?"
+      - date: 2024-10-30
+        presenter: "Mary Zhang"
+        authors: "Caratelli, Halperin"
+        title: "Optimal Monetary Policy under Menu Costs"
+      - date: 2024-11-06
+        presenter: "Arnav Deshpande"
+        authors: "Morrison"
+        title: "Redistribution and Investment"
+      - date: 2024-11-13
+        presenter: "Peter Liu and Robin Li"
+        authors: "Angeletos, Lian, Wolf"
+        title: "Deficits and Inflation: HANK meets FTPL"
+      - date: 2024-11-20
+        presenter: "Saverio Spinella"
+        authors: "Fernandez-Villaverde, Levintal"
+        title: "The Distributional Effects of Asset Returns"
+      - date: 2024-11-27
+        status: break
+        note: "Thanksgiving break"
+      - date: 2024-12-04
+        presenter: "Olalekan Bello"
+        authors: "Gathen, Fentanes"
+        title: "Making a Growth Miracle: Historical Persistence and the Dynamics of Development"
+      - date: 2024-12-11
+        presenter: "Francesco Boninsegna"
+        authors: "Barro, Bianchi"
+        title: "Fiscal Influences on Inflation in OECD Countries, 2020-2022"
+
+  # ==========================================================================
+  - id: 2024-spring
+    label: "Spring 2024"
+    time: "Tuesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 624"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2024"
+    sessions:
+      - date: 2024-01-30
+        presenter: "Chengdai Huang"
+        authors: "Boehm, Fize, Jaravel"
+        title: "Five Facts about MPCs: Evidence from a Randomized Experiment"
+      - date: 2024-02-06
+        presenter: "Bill Shu"
+        authors: "Pallotti, Paz-Pardo, Slacalek, Tristani, Violante"
+        title: "Who Bears the Costs of Inflation? Euro Area Households and the 2021–2022 Shock"
+      - date: 2024-02-13
+        status: break
+        note: "No meeting"
+      - date: 2024-02-20
+        presenter: "Francisco Amor"
+        authors: "Hack, Istrefi, Meier"
+        title: "Identification of Systematic Monetary Policy"
+      - date: 2024-02-27
+        presenter: "Joon Kim"
+        authors: "Graves, Huckfeldt, Swanson"
+        title: "Labor Demand and Labor Supply Channels of Monetary Policy"
+      - date: 2024-03-05
+        presenter: "Jingyi Li"
+        authors: "Freund"
+        title: "Superstar Teams: The Micro Origins and Macro Implications of Coworker Complementarities"
+      - date: 2024-03-12
+        presenter: "Benjamín Castiglione"
+        authors: "Mukhin, Itskhoki"
+        title: "What Drives Exchange Rates?"
+      - date: 2024-03-19
+        status: break
+        note: "Spring break"
+      - date: 2024-03-26
+        presenter: "Matteo Cremonini"
+        authors: "Sangani"
+        title: "Markups Across the Income Distribution: Measurement and Implications"
+      - date: 2024-04-02
+        presenter: "Hyein Han"
+        authors: "Bazzi, Muendler, Oliveira, Rauch"
+        title: "Credit Supply Shocks and Firm Dynamics: Evidence from Brazil"
+      - date: 2024-04-09
+        presenter: "Tanvi Bansal"
+        authors: "Ottonello, Winberry"
+        title: "Capital, Ideas, and the Costs of Financial Frictions"
+      - date: 2024-04-16
+        presenter: "Janet Choi"
+        authors: "Aruoba, Drechsel"
+        title: "Identifying Monetary Policy Shocks: A Natural Language Approach"
+      - date: 2024-04-23
+        presenter: "Al-Mahdi Ebsim"
+        authors: "Waugh"
+        title: "Heterogeneous Agent Trade"
+      - date: 2024-04-30
+        presenter: "Myunghwan Andrew Lee"
+        authors: "Acosta, Mueller, Nakamura, Steinsson"
+        title: "Macroeconomic Effects of UI Extensions at Short and Long Durations"
+
+  # ==========================================================================
+  - id: 2023-fall
+    label: "Fall 2023"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2023"
+    sessions:
+      - date: 2023-09-13
+        presenter: "Chengdai Huang"
+        authors: "Berger et al."
+        title: "An Anatomy of Monopsony: Search Frictions, Amenities, and Bargaining in Concentrated Markets"
+      - date: 2023-09-20
+        presenter: "Julien Weber"
+        authors: "Di Tella, Hébert, Kurlat, Wang"
+        title: "The Zero-Beta Rate"
+      - date: 2023-09-27
+        presenter: "Nicolò Ceneri"
+        authors: "Nord"
+        title: "Shopping, Demand Composition and Equilibrium Prices"
+      - date: 2023-10-04
+        presenter: "Joon Kim"
+        authors: "Alves, Violante"
+        title: "Some Like It Hot: Inclusive Monetary Policy Under Okun's Hypothesis"
+      - date: 2023-10-11
+        presenter: "Al-Mahdi Ebsim"
+        authors: "Bocola, Bornstein"
+        title: "The Macroeconomics of Trade Credit"
+      - date: 2023-10-18
+        presenter: "Benjamín Castiglione"
+        authors: "Angeletos, Lian, Wolf"
+        title: "Can Deficits Finance Themselves?"
+      - date: 2023-10-25
+        presenter: "Francisco Amor"
+        authors: "Lorenzoni, Werning"
+        title: "Inflation is Conflict"
+      - date: 2023-11-01
+        presenter: "Nadia Pozdnyakova"
+        authors: "Fukui, Nakamura, Steinsson"
+        title: "The Macroeconomic Consequences of Exchange Rate Depreciations"
+      - date: 2023-11-08
+        presenter: "Hyein Han"
+        authors: "Fernandes, Rigato"
+        title: "Precautionary Savings and Stabilization Policy in a Present Biased Economy"
+      - date: 2023-11-15
+        presenter: "Jingyi Li"
+        authors: "La'O, Morrison"
+        title: "Optimal Monetary Policy with Redistribution"
+      - date: 2023-11-22
+        status: break
+        note: "Fall break"
+      - date: 2023-11-29
+        presenter: "Bill Shu"
+        authors: "Bordalo, Gennaioli, La Porta, Shleifer"
+        title: "Errors in Expectations and Economic Fluctuations"
+      - date: 2023-12-06
+        presenter: "Janet Choi"
+        authors: "Bahaj, Czech, Ding, Reis"
+        title: "The Market for Inflation Risk"
+      - date: 2023-12-13
+        presenter: "Doruk Gökalp"
+        authors: "Kaplan, Nikolakoudis, Violante"
+        title: "Price Level and Inflation Dynamics in Heterogeneous Agent Economies"
+
+  # ==========================================================================
+  - id: 2023-spring
+    label: "Spring 2023"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2023"
+    sessions:
+      - date: 2023-02-01
+        presenter: "William Witheridge"
+        authors: "Coulibaly, Bianchi"
+        title: "Liquidity Traps, Prudential Policies, and International Spillovers"
+      - date: 2023-02-08
+        presenter: "Giovanni Topa"
+        authors: "Pilossoph, Ryngaert"
+        title: "Job Search, Wages and Inflation"
+      - date: 2023-02-15
+        presenter: "Nadezda Pozdnyakova"
+        authors: "Flynn, Sastry"
+        title: "The Macroeconomics of Narratives"
+      - date: 2023-02-22
+        presenter: "Mahdi Ebsim"
+        authors: "Lorenzoni, Werning"
+        title: "Wage-Price Spirals"
+      - date: 2023-03-01
+        presenter: "Tommaso De Santo"
+        authors: "Kleinman"
+        title: "Wage Inequality and the Spatial Expansion of Firms"
+      - date: 2023-03-08
+        presenter: "Julien Weber"
+        authors: "Oberfield"
+        title: "Inequality and Measured Growth"
+      - date: 2023-03-15
+        status: break
+        note: "Spring break"
+      - date: 2023-03-22
+        status: break
+        note: "No meeting"
+      - date: 2023-03-29
+        presenter: "Shi Hu"
+        authors: "Davis, Krolikowski"
+        title: "Sticky Wages on the Layoff Margin"
+      - date: 2023-04-05
+        presenter: "Audrey Azerot"
+        authors: "Cerrato, Gitti"
+        title: "Inflation Since Covid: Demand or Supply"
+      - date: 2023-04-12
+        status: break
+        note: "No session listed on the previous site"
+      - date: 2023-04-19
+        status: break
+        note: "No session listed on the previous site"
+      - date: 2023-04-26
+        presenter: "Felipe Camelo"
+        authors: "Brunnermeier, Correia, Luck, Verner, Zimmermann"
+        title: "The Debt-Inflation Channel of the German Hyperinflation"
+      - date: 2023-05-03
+        presenter: "Doruk Gökalp"
+        authors: "Amiti, Heise, Karahan, Şahin"
+        title: "Inflation Strikes Back: The Return of Wage to Price Pass-through"
+
+  # ==========================================================================
+  - id: 2022-fall
+    label: "Fall 2022"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2022"
+    sessions:
+      - date: 2022-09-14
+        presenter: "Cesar Zambrano"
+        authors: "David, Ranciere, Zeke"
+        title: "International Diversification, Reallocation, and the Labor Share"
+      - date: 2022-09-21
+        presenter: "Shi Hu"
+        authors: "Aguiar, Amador, Arellano"
+        title: "Micro Risks and (Robust) Pareto Improving Policies"
+      - date: 2022-09-28
+        presenter: "William Witheridge"
+        authors: "Itskhoki, Mukhin"
+        title: "Optimal Exchange Rate Policy"
+      - date: 2022-10-05
+        presenter: "Doruk Gökalp"
+        authors: "Debortoli, Galí"
+        title: "Idiosyncratic Income Risk and Aggregate Fluctuations"
+      - date: 2022-10-12
+        presenter: "Giovanni Topa"
+        authors: "Coglianese, Olsson, Patterson"
+        title: "Monetary Policy and the Labor Market: A Quasi-Experiment in Sweden"
+      - date: 2022-10-19
+        presenter: "Mahdi Ebsim"
+        authors: "Auclert, Rigato, Rognlie, Straub"
+        title: "New Pricing Models, Same Old Phillips Curves?"
+      - date: 2022-10-26
+        presenter: "Nadia Pozdnyakova"
+        authors: "Coulibaly, Bianchi"
+        title: "Liquidity Traps, Prudential Policies, and International Spillovers"
+      - date: 2022-11-02
+        presenter: "Chengdai Huang"
+        authors: "Kaplan, Violante"
+        title: "The Marginal Propensity to Consume in Heterogeneous Agent Models"
+      - date: 2022-11-09
+        presenter: "Andres Ghini"
+        authors: "Werning"
+        title: "Expectations and the Rate of Inflation"
+      - date: 2022-11-16
+        presenter: "Tommaso De Santo"
+        authors: "Fagereng, Gomez, Gouin-Bonenfant, Holm, Moll, Natvik"
+        title: "Asset-Price Redistribution"
+      - date: 2022-11-23
+        status: break
+        note: "Fall break"
+      - date: 2022-11-30
+        presenter: "Felipe Camelo"
+        authors: "Orchard, Ramey, Wieland"
+        title: "Micro MPCs and Macro Counterfactuals: The Case of the 2008 Rebates"
+      - date: 2022-12-07
+        presenter: "Man Chon (Tommy) Iao"
+        authors: "Dávila, Schaab"
+        title: "Optimal Monetary Policy with Heterogeneous Agents: A Timeless Ramsey Approach"
+      - date: 2022-12-14
+        presenter: "Audrey Azerot"
+        authors: "Bilbiie, Primiceri, Tambalotti"
+        title: "Inequality and Business Cycles"
+
+  # ==========================================================================
+  - id: 2022-spring
+    label: "Spring 2022"
+    time: "Tuesdays, 12:15–1:15 p.m."
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2022"
+    sessions:
+      - date: 2022-02-01
+        presenter: "Felipe Camelo"
+        authors: "Aristizabal-Ramirez"
+        title: "Dynamics of Corporate Credit Markets, Employment, and Wages: Evidence from Colombia"
+      - date: 2022-02-08
+        presenter: "Guillaume Nevo"
+        authors: "Ghassibe"
+        title: "Monetary Policy and Production Networks: An Empirical Investigation"
+      - date: 2022-02-15
+        presenter: "Jae-Hyung Kim"
+        authors: "Buera, Hopenhayn, Shin, Trachter"
+        title: "Big Push in Distorted Economies"
+      - date: 2022-02-22
+        presenter: "Qinzhou Gong"
+        authors: "Finlay"
+        title: "Exporters, Credit Constraints, and Misallocation"
+      - date: 2022-03-01
+        presenter: "Cesar Zambrano"
+        authors: "Ma"
+        title: "Specialization in a Knowledge Economy"
+      - date: 2022-03-08
+        presenter: "Man Chon (Tommy) Iao"
+        authors: "Weber et al."
+        title: "Inclusive Monetary Policy: How Tight Labor Markets Facilitate Broad-Based Employment Growth"
+      - date: 2022-03-15
+        status: break
+        note: "Spring break"
+      - date: 2022-03-22
+        presenter: "Giacomo Cattelan"
+        authors: "Farmer, Nakamura, Steinsson"
+        title: "Learning About the Long Run"
+      - date: 2022-03-29
+        presenter: "Luca Gagliardone"
+        authors: "Sastry"
+        title: "Attention Cycles"
+      - date: 2022-04-05
+        presenter: "Diva Astinova"
+        authors: "Prato"
+        title: "The Global Race for Talent: Brain Drain, Knowledge Transfer, and Economic Growth"
+      - date: 2022-04-12
+        presenter: "Nadia Pozdnyakova"
+        authors: "Auclert, Rognlie, Souchier, Straub"
+        title: "Exchange Rates and Monetary Policy with Heterogeneous Agents: Sizing Up the Real Income Channel"
+      - date: 2022-04-19
+        presenter: "Brandon Kaplowitz"
+        authors: "Angeletos, Sastry"
+        title: "Managing Expectations: Instruments versus Targets"
+      - date: 2022-04-26
+        presenter: "Fernando Cirelli"
+        authors: "McKay, Wolf"
+        title: "Optimal Policy Rules in HANK"
+      - date: 2022-05-03
+        presenter: "Aleksandra Alferova"
+        authors: "Qiao, Wei"
+        title: "An Anatomy of the Repo Market Crash"
+      - date: 2022-05-10
+        presenter: "Shi Hu"
+        authors: "Aguiar, Amador, Arellano"
+        title: "Micro Risks and Pareto Improving Policies"
+
+  # ==========================================================================
+  - id: 2021-fall
+    label: "Fall 2021"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2021"
+    sessions:
+      - date: 2021-09-15
+        presenter: "François Miguet"
+        authors: "De Loecker, Eeckhout, Mongey"
+        title: "Quantifying Market Power and Business Dynamism in the Macroeconomy"
+      - date: 2021-09-22
+        presenter: "Melanie Friedrichs and Brandon Kaplowitz"
+        authors: "Mian, Straub, Sufi"
+        title: "A Goldilocks Theory of Fiscal Policy"
+      - date: 2021-09-29
+        presenter: "Nadia Pozdnyakova"
+        authors: "De Ferra, Mitman, Romei"
+        title: "Why Does Capital Flow from Equal to Unequal Countries?"
+      - date: 2021-10-06
+        presenter: "Man Chon (Tommy) Iao"
+        authors: "McKay, Wolf"
+        title: "What Can Time-Series Regressions Tell Us About Policy Counterfactuals?"
+      - date: 2021-10-13
+        presenter: "Felipe Camêlo"
+        authors: "Hubmer, Restrepo"
+        title: "Not a Typical Firm: The Joint Dynamics of Firms, Labor Shares, and Capital-Labor Substitution"
+      - date: 2021-10-20
+        presenter: "Anuraag Aekka"
+        authors: "Angeletos, Huo"
+        title: "Myopia and Anchoring"
+      - date: 2021-10-27
+        presenter: "Andres Ghini"
+        authors: "Guerrieri, Lorenzoni, Straub, Werning"
+        title: "Monetary Policy in Times of Structural Reallocation"
+      - date: 2021-11-03
+        presenter: "Jae-Hyung Kim"
+        authors: "Robinson"
+        title: "Risky Business: The Choice of Entrepreneurial Risk under Incomplete Markets"
+      - date: 2021-11-10
+        presenter: "Qinzhou Gong"
+        authors: "Cavalcanti, Kaboski, Martins"
+        title: "Dispersion in Financing Costs and Development"
+      - date: 2021-11-17
+        presenter: "Masayuki Okada"
+        authors: "Bayer, Born, Luetticke"
+        title: "The Liquidity Channel of Fiscal Policy"
+      - date: 2021-11-24
+        presenter: "Cesar Zambrano"
+        authors: "Basu, Candian, Chahrour, Valchev"
+        title: "Risky Business Cycles"
+      - date: 2021-12-01
+        presenter: "Diva Astinova"
+        authors: "Acemoglu, Autor, Patterson"
+        title: "Bottlenecks: Sectoral Imbalances and the US Productivity Slowdown"
+      - date: 2021-12-08
+        presenter: "Giacomo Cattelan"
+        authors: "Boissay, Collard, Galí, Manea"
+        title: "Monetary Policy and Endogenous Financial Crises"
+      - date: 2021-12-15
+        presenter: "Shi Hu"
+        authors: "Lee"
+        title: "Quantitative Easing and Inequality"
+
+  # ==========================================================================
+  - id: 2021-spring
+    label: "Spring 2021"
+    time: "Tuesdays, 12:15–1:15 p.m."
+    location: "Zoom"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2021"
+    sessions:
+      - date: 2021-02-09
+        presenter: "Felipe Camelo"
+        authors: "Kopytov, Roussanov, Taschereau-Dumouchel"
+        title: "Cheap Thrills: The Price of Leisure and the Global Decline in Work Hours"
+      - date: 2021-02-16
+        presenter: "William Witheridge"
+        authors: "Rachel"
+        title: "Leisure-Enhancing Technological Change"
+      - date: 2021-02-23
+        presenter: "Qinzhou Gong"
+        authors: "Feijoo-Moreira"
+        title: "Provider-Driven Complementarity and Firm Dynamics"
+      - date: 2021-03-02
+        presenter: "Do Lee"
+        authors: "Laibson, Maxted, Moll"
+        title: "Present Bias Amplifies the Household Balance-Sheet Channels of Macroeconomic Policy"
+      - date: 2021-03-09
+        presenter: "Luca Gagliardone and Nacho Cigliutti"
+        authors: "Baqaee, Farhi, Sangani"
+        title: "The Supply-Side Effects of Monetary Policy"
+      - date: 2021-03-16
+        presenter: "Man Chon (Tommy) Iao"
+        authors: "Wolf"
+        title: "Interest Rate Cuts vs. Stimulus Payments: A Macro Equivalence Result"
+      - date: 2021-03-23
+        presenter: "Diva Astinova and Teresa Steininger"
+        authors: "Bardóczy"
+        title: "Spousal Insurance and the Amplification of Business Cycles"
+      - date: 2021-03-30
+        presenter: "Chitra Marti"
+        authors: "Olmstead-Rumsey"
+        title: "Market Concentration and the Productivity Slowdown"
+      - date: 2021-04-06
+        presenter: "Cesar Zambrano"
+        authors: "vom Lehn, Winberry"
+        title: "The Investment Network, Sectoral Comovement, and the Changing U.S. Business Cycle"
+      - date: 2021-04-13
+        presenter: "François Miguet"
+        authors: "Schaab"
+        title: "Micro and Macro Uncertainty"
+      - date: 2021-04-20
+        presenter: "Aleksandra Alferova"
+        authors: "Jamilov"
+        title: "A Macroeconomic Model with Heterogeneous Banks"
+      - date: 2021-04-27
+        presenter: "Giacomo Cattelan and Nadia Pozdnyakova"
+        authors: "Maxted"
+        title: "A Macro-Finance Model with Sentiment"
+      - date: 2021-05-04
+        presenter: "Melanie Friedrichs and Brandon Kaplowitz"
+        authors: "Auclert, Malmberg, Martenet, Rognlie"
+        title: "Demographics, Wealth and Global Imbalances in the Twenty-First Century"
+      - date: 2021-05-11
+        presenter: "Anuraag Aekka"
+        authors: "de Souza"
+        title: "The Labor Market Consequences of Appropriate Technology"
+
+  # ==========================================================================
+  - id: 2020-fall
+    label: "Fall 2020"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    location: "Zoom"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2020"
+    sessions:
+      - date: 2020-09-09
+        presenter: "Fernando Cirelli"
+        authors: "Guerrieri, Lorenzoni, Straub, Werning"
+        title: "Macroeconomic Implications of COVID-19: Can Negative Supply Shocks Cause Demand Shortages?"
+      - date: 2020-09-16
+        presenter: "Felipe Camelo and Guillaume Nevo"
+        authors: "Bilal, Engbom, Mongey, Violante"
+        title: "Firm and Worker Dynamics in a Frictional Labor Market"
+      - date: 2020-09-23
+        presenter: "William Witheridge"
+        authors: "Wolf"
+        title: "The Missing Intercept: A Demand Equivalence Approach"
+      - date: 2020-09-30
+        presenter: "Chitra Marti"
+        authors: "Walsh"
+        title: "Firm Creation and Local Growth"
+      - date: 2020-10-07
+        presenter: "Brandon Kaplowitz"
+        authors: "Kaplan, Moll, Violante"
+        title: "The Great Lockdown and the Big Stimulus: Tracing the Pandemic Possibility Frontier for the U.S."
+      - date: 2020-10-14
+        presenter: "Aleksandra Alferova and Paolo Varraso"
+        authors: "Kekre, Lenel"
+        title: "Dollar Demand and International Risk Sharing"
+      - date: 2020-10-21
+        presenter: "Giacomo Cattelan"
+        authors: "Greenwald, Krainer, Paul"
+        title: "The Credit Line Channel"
+      - date: 2020-10-28
+        presenter: "Teresa Steininger"
+        authors: "Morchio, Moser"
+        title: "The Gender Pay Gap: Micro Sources and Macro Consequences"
+      - date: 2020-11-04
+        presenter: "Cesar Zambrano"
+        authors: "Rotberg, Steinberg"
+        title: "The Economic Effects of Wealth Taxes and Wealth Tax Evasion"
+      - date: 2020-11-11
+        presenter: "Man Chon (Tommy) Iao"
+        authors: "Ilut, Valchev"
+        title: "Economic Agents as Imperfect Problem Solvers"
+      - date: 2020-11-18
+        presenter: "Qinzhou Gong"
+        authors: "Boerma, McGrattan"
+        title: "Quantifying Efficient Tax Reform"
+      - date: 2020-11-25
+        presenter: "Do Lee"
+        authors: "Di Tella, Hall"
+        title: "Risk Premium Shocks Can Create Inefficient Recessions"
+      - date: 2020-12-02
+        presenter: "Nadia Pozdnyakova"
+        authors: "Bayer, Born, Luetticke"
+        title: "Shocks, Frictions and Inequality in US Business Cycles"
+      - date: 2020-12-09
+        presenter: "Andres Ghini and Marcos Sonnervig"
+        authors: "Le Grand, Martin-Baillon, Ragot"
+        title: "Should Monetary Policy Care About Redistribution?"
+      - date: 2020-12-16
+        presenter: "Luca Gagliardone"
+        authors: "Wang, Werning"
+        title: "Dynamic Oligopoly and Price Stickiness"
+
+  # ==========================================================================
+  - id: 2020-spring
+    label: "Spring 2020"
+    time: "Tuesdays, 12:15–1:15 p.m."
+    location: "Room 831"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/spring-2020"
+    sessions:
+      - date: 2020-02-04
+        presenter: "Federico Kochen"
+        authors: "De Ridder"
+        title: "Market Power and Innovation in the Intangible Economy"
+      - date: 2020-02-11
+        presenter: "Marcos Sonnervig and Matheus Silva"
+        authors: "Mian, Straub, Sufi"
+        title: "Indebted Demand"
+      - date: 2020-02-18
+        presenter: "Fernando Cirelli"
+        authors: "Brunnermeier, Koby"
+        title: "The Reversal Interest Rate"
+      - date: 2020-02-25
+        presenter: "Aleksandra Alferova"
+        authors: "Rubbo"
+        title: "Networks, Phillips Curves and Monetary Policy"
+      - date: 2020-03-03
+        presenter: "William Witheridge"
+        authors: "Lian"
+        title: "Consumption with Imperfect Perception of Wealth"
+      - date: 2020-03-10
+        presenter: "Ignacio Cigliutti"
+        authors: "Grigsby"
+        title: "Skill Heterogeneity and Aggregate Labor Market Dynamics"
+      - date: 2020-03-17
+        status: break
+        note: "Spring break"
+      - date: 2020-03-24
+        presenter: "Andres Ghini"
+        authors: "Boerma, McGrattan"
+        title: "Quantifying Efficient Tax Reform"
+      - date: 2020-03-31
+        presenter: "Teresa Steininger"
+        authors: "Rotberg, Steinberg"
+        title: "Tax the Wealthy? A Dynamic Model of Progressive Wealth Taxation"
+      - date: 2020-04-07
+        presenter: "François Miguet"
+        authors: "Walsh"
+        title: "Firm Creation and Local Growth"
+      - date: 2020-04-14
+        presenter: "Guillaume Nevo"
+        authors: "Bayer, Born, Luetticke"
+        title: "Shocks, Frictions and Inequality in US Business Cycles"
+      - date: 2020-04-21
+        presenter: "Paolo Varraso and Melinda Suveg"
+        authors: "Wolf"
+        title: "The Missing Intercept: A Demand Equivalence Approach"
+      - date: 2020-04-28
+        presenter: "Felipe Camelo"
+        authors: "Bilal, Engbom, Mongey, Violante"
+        title: "Firm and Worker Dynamics in a Frictional Labor Market"
+      - date: 2020-05-05
+        presenter: "Anuraag Aekka"
+        authors: "Bilal"
+        title: "The Geography of Unemployment"
+      - date: 2020-05-12
+        presenter: "Francesco Furno"
+        authors: "Heathcote, Storesletten, Violante"
+        title: "Optimal Tax Progressivity: An Analytical Framework"
+      - date: 2020-05-19
+        presenter: "Peter Paz"
+        own_work: true
+        title: "Own work in progress"
+
+  # ==========================================================================
+  - id: 2019-fall
+    label: "Fall 2019"
+    time: "Wednesdays, 12:15–1:15 p.m."
+    location: "19 W 4th St., Room 736"
+    archived: true
+    source_url: "https://sites.google.com/nyu.edu/bggmrg/fall-2019"
+    sessions:
+      - date: 2019-09-11
+        presenter: "Paolo Varraso"
+        authors: "Berger, Bocola, Dovis"
+        title: "Imperfect Risk-Sharing and the Business Cycle"
+      - date: 2019-09-18
+        presenter: "Fernando Cirelli and Marcos Sonnervig"
+        authors: "McKay, Wieland"
+        title: "Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy"
+      - date: 2019-09-25
+        presenter: "Melanie Friedrichs and Matheus Silva"
+        authors: "Moll, Rachel, Restrepo"
+        title: "Uneven Growth: Automation's Impact on Income and Wealth Inequality"
+      - date: 2019-10-02
+        presenter: "Ignacio Cigliutti and Federico Kochen"
+        authors: "Fagereng, Holm, Moll, Natvik"
+        title: "Saving Behavior Across the Wealth Distribution: The Importance of Capital Gains"
+      - date: 2019-10-09
+        presenter: "William Witheridge"
+        authors: "Kekre, Lenel"
+        title: "Redistribution, Risk Premia and the Macroeconomy"
+      - date: 2019-10-16
+        presenter: "Teresa Steininger"
+        authors: "Fukui, Nakamura, Steinsson"
+        title: "Women, Wealth Effects and Slow Recoveries"
+      - date: 2019-10-23
+        presenter: "Felipe Camelo"
+        authors: "Auclert, Rognlie, Straub"
+        title: "Inattention, Heterogeneity, Investment: Monetary Policy and Business Cycles Revisited"
+      - date: 2019-10-30
+        presenter: "Andres Ghini"
+        authors: "Andrade, Galí, Le Bihan, Matheron"
+        title: "The Optimal Inflation Target and the Natural Rate of Interest"
+      - date: 2019-11-06
+        presenter: "Melinda Suveg"
+        authors: "David, Schmid, Zeke"
+        title: "Risk-Adjusted Capital Allocation and Misallocation"
+      - date: 2019-11-13
+        presenter: "François Miguet and Anuraag Aekka"
+        authors: "Aghion, Bergeaud, Boppart, Klenow, Li"
+        title: "A Theory of Falling Growth and Rising Rents"
+      - date: 2019-11-20
+        presenter: "Guillaume Nevo"
+        authors: "Jarosch, Nimczik, Sorkin"
+        title: "Granular Search, Market Structure and Wages"
+      - date: 2019-11-27
+        status: break
+        note: "Thanksgiving break"
+      - date: 2019-12-04
+        presenter: "Aleksandra Alferova"
+        authors: "Bianchi, Mondragon"
+        title: "Monetary Independence and Rollover Crises"
+      - date: 2019-12-11
+        presenter: "Yueling Huang"
+        authors: "Comin, Danieli, Mestieri"
+        title: "Demand-Driven Labor Market Polarization"
+      - date: 2019-12-18
+        presenter: "Matias Covarrubias"
+        own_work: true
+        title: "Own work in progress"
