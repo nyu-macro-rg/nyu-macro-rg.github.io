@@ -250,3 +250,26 @@ The original URLs are kept here so anyone can chase a replacement.
 | 2023-12-06 | Fall 2023 | Bahaj, Czech, Ding, Reis, *The Market for Inflation Risk* | `https://deliverypdf.ssrn.com/delivery.php?ID=036104118122112090077076025123071091118034032080036086072001112090126069118102027095039031120001116015022110018078102117011028061050017010060098002096079122124126007088053079115113089096000014126118001071001126114003099105096119066096097066012006000009&EXT=pdf&INDEX=TRUE` |
 | 2024-02-20 | Spring 2024 | Hack, Istrefi, Meier, *Identification of Systematic Monetary Policy* | `https://matthias-meier-econ.github.io/files/HIM_SysMP.pdf` |
 | 2024-09-18 | Fall 2024 | Aguiar, Moll, Scheuer, *Putting the Finance into Public Finance: A Theory of Capital Gains Taxation* | `https://benjaminmoll.com/wp-content/uploads/2024/06/PFPF.pdf` |
+
+## Who organized each semester
+
+Taken from the "Please email X to be added to the distribution list" line on each old-site
+semester page, which names that year's organizer, plus the 2025-26 and 2026-27 organizers
+known directly from the announcement emails.
+
+| Semester | Organizer | Source |
+|---|---|---|
+| Fall 2026 | Ariana Gamero | her announcement emails |
+| Fall 2025, Spring 2026 | Rafael Lincoln | his announcement emails |
+| Fall 2024, Spring 2025 | Olalekan Bello | `ob708@nyu.edu` on both pages, and he describes himself as the prior organizer in the 2025-09-11 website thread |
+| Fall 2021, Spring 2022 | Cesar Zambrano | `cesar.zambrano@nyu.edu` on both pages |
+| Fall 2020, Spring 2021 | William Witheridge | `william.witheridge@nyu.edu` on both pages |
+| Fall 2022, Spring 2023 | **unknown** | pages give only the netid `sh5012@nyu.edu` |
+| Fall 2023, Spring 2024 | **unknown** | pages give only the netid `fga2012@nyu.edu` |
+| Fall 2019, Spring 2020 | **unknown** | no contact line on either page |
+
+The two netids are deliberately **not** resolved to names. Both are plausible from initials
+and from who presented those years, but neither is confirmed: there is no mail from either
+address in the organizer's archive, and putting the wrong person's name against two years of
+someone else's work is worse than leaving it blank. Both addresses are still on the current
+mailing list, so the answer is one question away.

@@ -1,5 +1,8 @@
 <h2 class="semester" id="{{ include.sem.id }}">{{ include.sem.label }}</h2>
 <p class="semester-meta">{{ include.sem.time }}{% if include.sem.location %} &middot; {{ include.sem.location }}{% elsif include.sem.archived != true %} &middot; {{ site.data.sessions.meta.location }}{% endif %}</p>
+{%- if include.sem.organizer and include.sem.current != true %}
+<p class="semester-meta">Organized by {{ include.sem.organizer }}</p>
+{%- endif %}
 {%- if include.sem.archived %}
 <p class="semester-meta archived-note">Recovered from the
   <a href="{{ include.sem.source_url }}">group's previous site</a>.</p>

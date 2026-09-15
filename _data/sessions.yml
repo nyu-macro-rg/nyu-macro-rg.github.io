@@ -49,6 +49,7 @@ semesters:
 
   # ==========================================================================
   - id: 2026-fall
+    organizer: "Ariana Gamero"
     label: "Fall 2026"
     current: true
     time: "Wednesdays, 12:15–1:15 p.m."
@@ -86,6 +87,7 @@ semesters:
 
   # ==========================================================================
   - id: 2026-spring
+    organizer: "Rafael Lincoln"
     label: "Spring 2026"
     time: "Wednesdays, 12:30–1:30 p.m."
     sessions:
@@ -147,6 +149,7 @@ semesters:
 
   # ==========================================================================
   - id: 2025-fall
+    organizer: "Rafael Lincoln"
     label: "Fall 2025"
     time: "Wednesdays, 12:15–1:15 p.m."
     sessions:
@@ -220,6 +223,7 @@ semesters:
 
   # ==========================================================================
   - id: 2025-spring
+    organizer: "Olalekan Bello"
     label: "Spring 2025"
     time: "Wednesdays, 12:30–1:30 p.m."
     location: "19 W 4th St., Room 736"
@@ -284,6 +288,7 @@ semesters:
 
   # ==========================================================================
   - id: 2024-fall
+    organizer: "Olalekan Bello"
     label: "Fall 2024"
     time: "Tuesdays, 12:15–1:15 p.m."
     location: "19 W 4th St., Room 736"
@@ -704,6 +709,7 @@ semesters:
 
   # ==========================================================================
   - id: 2022-spring
+    organizer: "Cesar Zambrano"
     label: "Spring 2022"
     time: "Tuesdays, 12:15–1:15 p.m."
     archived: true
@@ -788,6 +794,7 @@ semesters:
 
   # ==========================================================================
   - id: 2021-fall
+    organizer: "Cesar Zambrano"
     label: "Fall 2021"
     time: "Wednesdays, 12:15–1:15 p.m."
     archived: true
@@ -872,6 +879,7 @@ semesters:
 
   # ==========================================================================
   - id: 2021-spring
+    organizer: "William Witheridge"
     label: "Spring 2021"
     time: "Tuesdays, 12:15–1:15 p.m."
     location: "Zoom"
@@ -956,6 +964,7 @@ semesters:
 
   # ==========================================================================
   - id: 2020-fall
+    organizer: "William Witheridge"
     label: "Fall 2020"
     time: "Wednesdays, 12:15–1:15 p.m."
     location: "Zoom"
