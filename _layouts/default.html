@@ -32,8 +32,9 @@
 
 <footer class="site">
   <div class="wrap">
-    <p>Organized by {{ site.data.sessions.meta.organizer.name }}
-       (<a href="mailto:{{ site.data.sessions.meta.organizer.email }}">{{ site.data.sessions.meta.organizer.email }}</a>).
+    {%- assign org = site.data.sessions.meta.organizer %}
+    <p>The {{ org.year }} sessions are organized by {{ org.name }}
+       (<a href="mailto:{{ org.email }}">{{ org.email }}</a>).
        Email to join the mailing list.</p>
     <p class="muted">{{ site.data.sessions.meta.archive_note }}
        <a href="{{ site.data.sessions.meta.archive_url }}">Previous site</a>.</p>
@@ -41,5 +42,6 @@
 </footer>
 
 <script src="{{ '/assets/next-session.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/archive-picker.js' | relative_url }}" defer></script>
 </body>
 </html>

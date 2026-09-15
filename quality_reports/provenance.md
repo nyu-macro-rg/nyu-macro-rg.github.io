@@ -170,3 +170,49 @@ Fall 2020 and Spring 2021 met on Zoom. Spring 2024 met in Room 624, Spring 2020 
 
 **If you are correcting one of these entries,** an announcement email from that semester or the
 presenter's own memory both outrank what is written here.
+
+---
+
+# Recovering the papers and slides (2026-09-15)
+
+A second pass went back to the old Google Site for the **artifacts**, not just the schedule.
+
+**How links were matched to sessions.** Each link was replaced with a marker token while the
+page HTML was still intact, then tags were stripped. Markers and row text therefore share one
+coordinate space, so a link is attached to the row it physically sits in rather than guessed
+at by text similarity. Fuzzy matching was tried first and abandoned: it silently attached
+links to the wrong session whenever two rows' text fell inside the same window. Google Sites
+splits digits across tags ("October 1 4 th"), so date patterns tolerate internal whitespace.
+
+**Result.**
+
+| | count |
+|---|---|
+| Sessions with a paper link | 159 of 182 (87%) |
+| Slide decks downloaded and hosted here | 62 |
+| Slide decks left as Drive links | 37 |
+
+**The 37 Drive links are not an oversight.** Those files were never shared publicly. Fetching
+them anonymously returns a Google sign-in page, so they cannot be mirrored. They are shown as
+"Slides (Drive)" with a dashed border to signal that they are external and may require an NYU
+account. Anyone who can sign in can still read them; if a future organizer can open them while
+logged in, downloading and committing them would complete the archive.
+
+**Not recovered at all.**
+
+- **Spring 2025.** The old site lists "(paper) (slides)" for every session as plain text that
+  was never hyperlinked. There is nothing to recover; that organizer did not add the links.
+- **Spring 2023, February.** Those four rows carry no parseable date, so their links could not
+  be attributed to a session. They were dropped rather than guessed. If someone wants them,
+  they are on the old site's `spring-2023` page.
+
+**Confidence in the pairings.** No contradiction was found in an independent check: for every
+paper link whose URL carries any signal (an author surname, a title word, a host like
+`benjaminmoll.com`), the URL agrees with the session it was attached to. Roughly 43% of the
+links are opaque identifiers (`nber.org/.../w31896.pdf`, SSRN delivery URLs, `economics.mit.edu/files/19331`)
+and can be neither confirmed nor contradicted this way. They rest on the positional method above.
+
+**Copyright note, unchanged in spirit.** Papers are still linked, never mirrored. The slide
+decks now hosted here were already published on the group's own public website; this moves
+them rather than publishing them anew. Any presenter who wants a deck taken down should be
+able to ask and have it removed.

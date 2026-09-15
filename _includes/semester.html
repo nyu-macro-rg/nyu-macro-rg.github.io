@@ -1,8 +1,8 @@
 <h2 class="semester" id="{{ include.sem.id }}">{{ include.sem.label }}</h2>
 <p class="semester-meta">{{ include.sem.time }}{% if include.sem.location %} &middot; {{ include.sem.location }}{% elsif include.sem.archived != true %} &middot; {{ site.data.sessions.meta.location }}{% endif %}</p>
 {%- if include.sem.archived %}
-<p class="semester-meta archived-note">Papers and slides for this semester are on the
-  <a href="{{ include.sem.source_url }}">previous site</a>.</p>
+<p class="semester-meta archived-note">Recovered from the
+  <a href="{{ include.sem.source_url }}">group's previous site</a>.</p>
 {%- endif %}
 <div class="sessions">
 {%- assign rows = include.sem.sessions | sort: "date" -%}

@@ -13,11 +13,23 @@ permalink: /archive/
   {%- endunless -%}
 {%- endfor -%}
 
-<p class="lede">{{ n }} sessions since {{ earliest.label }}. Recent entries link to the paper
-and, where the presenter shared them, the slides. Earlier semesters were recovered from the
-group's previous site, which is no longer maintained; their papers and slides are still
-hosted there and each semester links out to it.</p>
+<p class="lede">{{ n }} sessions since {{ earliest.label }}.</p>
 
+{%- comment -%}
+  The picker is a plain anchor list. Without JavaScript every semester is on the
+  page and the links jump to them, which is a working archive. With JavaScript
+  they become a filter that shows one semester at a time.
+{%- endcomment -%}
+<nav class="picker" id="semester-picker" aria-label="Choose a semester">
+  {%- for sem in site.data.sessions.semesters %}{% unless sem.id == cur.id %}
+  <a href="#{{ sem.id }}" data-sem="{{ sem.id }}">{{ sem.label }}</a>
+  {%- endunless %}{% endfor %}
+</nav>
+
+<div id="semester-list">
 {%- for sem in site.data.sessions.semesters %}{% unless sem.id == cur.id %}
+<section class="semester-block" data-sem="{{ sem.id }}">
 {% include semester.html sem=sem no_past=true %}
+</section>
 {% endunless %}{% endfor -%}
+</div>

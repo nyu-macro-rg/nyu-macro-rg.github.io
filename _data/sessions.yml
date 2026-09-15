@@ -41,6 +41,7 @@ meta:
   organizer:
     name: "Ariana Gamero"
     email: "ag11136@nyu.edu"
+    year: "2026-2027"      # academic year, shown in the footer
   archive_note: "Sessions from Fall 2019 onward are listed under Past sessions. Papers and slides from before Fall 2025 are still hosted on the group's previous site."
   archive_url: "https://sites.google.com/nyu.edu/bggmrg/home"
 
@@ -293,46 +294,68 @@ semesters:
         presenter: "Bill Shu"
         authors: "Selgrad"
         title: "Testing the Portfolio Rebalancing Channel of Quantitative Easing"
+        paper_url: "https://www.dropbox.com/scl/fi/9a8nwogwfx5wgw2uwl9r9/JSelgrad_JMP.pdf?rlkey=alj1likcs6yvnhji4w1c76x6e&e=1&dl=0"
+        slides_url: "https://drive.google.com/file/d/127dJMzFTKtn244qZL7BbGAg1ZOJKrYUs/view?usp=drive_link"
       - date: 2024-09-18
         presenter: "Sergio Florez-Orrego and Kerry Neitzel"
         authors: "Aguiar, Moll, Scheuer"
         title: "Putting the Finance into Public Finance: A Theory of Capital Gains Taxation"
+        paper_url: "https://benjaminmoll.com/wp-content/uploads/2024/06/PFPF.pdf"
+        slides_url: "https://drive.google.com/file/d/1qMEdYai8lbj7R0HJp9gvjJyWLLXkDN06/view?usp=drive_link"
       - date: 2024-09-25
         presenter: "Hyein Han"
         authors: "Fukui, Gormsen, Huber"
         title: "Sticky Discount Rates"
+        paper_url: "https://www.nber.org/system/files/working_papers/w32238/w32238.pdf"
+        slides_url: "https://drive.google.com/file/d/1YGZudBWdgr0FxoImSRIBuLtN2SamYRYF/view?usp=drive_link"
       - date: 2024-10-02
         presenter: "Joon Kim"
         authors: "Beraja, Buera"
         title: "The Life-Cycle of Concentrated Industries"
+        paper_url: "https://economics.mit.edu/sites/default/files/inline-files/oligopoly_draft_July_2024_0.pdf"
+        slides_url: "https://drive.google.com/file/d/1kSFc-sVq0iQ0Jvipf9iq6smK-fD1VcBz/view?usp=drive_link"
       - date: 2024-10-09
         presenter: "Rishabh Malhotra"
         authors: "Lhuillier"
         title: "Should I Stay or Should I Grow? How Cities Affect Learning, Inequality, and Productivity"
+        paper_url: "https://www.hugolhuillier.com/files/papers/lhuillier2023should.pdf"
+        slides_url: "https://drive.google.com/file/d/1zH2el0d6Ktvu7RBR0bzVdE5yila3F7ZN/view?usp=drive_link"
       - date: 2024-10-16
         presenter: "Lorenzo Vacca"
         authors: "Karadi, Nakov, Nuno, Pasten, Thaler"
         title: "Strike while the Iron is Hot: Optimal Monetary Policy with a Nonlinear Phillips Curve"
+        paper_url: "https://cepr.org/system/files/publication-files/DP19339.pdf"
+        slides_url: "https://drive.google.com/file/d/1v2dNt_G4pO3MVZ6T8ZDHbFooAeywQlj3/view?usp=drive_link"
       - date: 2024-10-23
         presenter: "Tor Frederik-Grondahl"
         authors: "Cram, Kung, Lustig"
         title: "Can US Treasury Markets Add and Subtract?"
+        paper_url: "https://drive.google.com/file/d/13Or21X5JcIOrQqy70q97aStrfVsW0JWR/view"
+        slides_url: "https://drive.google.com/file/d/1CVkq8WOMUrdqhms7GM3AJSjnZl7NsYtX/view?usp=drive_link"
       - date: 2024-10-30
         presenter: "Mary Zhang"
         authors: "Caratelli, Halperin"
         title: "Optimal Monetary Policy under Menu Costs"
+        paper_url: "https://www.basilhalperin.com/papers/halperin_jmp.pdf"
+        slides_url: "https://drive.google.com/file/d/1kbOWhp8mNVJB6xpdDjsinW-Ta_yxtEuv/view?usp=drive_link"
       - date: 2024-11-06
         presenter: "Arnav Deshpande"
         authors: "Morrison"
         title: "Redistribution and Investment"
+        paper_url: "https://www.wendyamorrison.com/_files/ugd/041ab5_c6c69f85a63e4f14a5726a898136b997.pdf"
+        slides_url: "https://drive.google.com/file/d/1uiKZK1LY7WOhbkdYmxjffsQzkY5Ful5n/view?usp=drive_link"
       - date: 2024-11-13
         presenter: "Peter Liu and Robin Li"
         authors: "Angeletos, Lian, Wolf"
         title: "Deficits and Inflation: HANK meets FTPL"
+        paper_url: "https://drive.google.com/file/d/1dwW9HHjDdX53IjyXtOs_bDwl8pejjhl_/view"
+        slides_url: "https://drive.google.com/file/d/1Ewh3gQVUm7EVTVLqTeP5OcDDl0j7IqQ0/view?usp=drive_link"
       - date: 2024-11-20
         presenter: "Saverio Spinella"
         authors: "Fernandez-Villaverde, Levintal"
         title: "The Distributional Effects of Asset Returns"
+        paper_url: "https://www.nber.org/system/files/working_papers/w32182/w32182.pdf"
+        slides_url: "https://drive.google.com/file/d/1KxV-t4FKJF6eXXWMyfSoaB2cTJ8NImMx/view?usp=drive_link"
       - date: 2024-11-27
         status: break
         note: "Thanksgiving break"
@@ -340,10 +363,13 @@ semesters:
         presenter: "Olalekan Bello"
         authors: "Gathen, Fentanes"
         title: "Making a Growth Miracle: Historical Persistence and the Dynamics of Development"
+        paper_url: "https://www.nber.org/system/files/working_papers/w32182/w32182.pdf"
+        slides_url: "https://drive.google.com/file/d/1_J7PwR0KvKqdGGRxmJpOZJtWpSkfqqeR/view?usp=drive_link"
       - date: 2024-12-11
         presenter: "Francesco Boninsegna"
         authors: "Barro, Bianchi"
         title: "Fiscal Influences on Inflation in OECD Countries, 2020-2022"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31838/w31838.pdf"
 
   # ==========================================================================
   - id: 2024-spring
@@ -357,10 +383,14 @@ semesters:
         presenter: "Chengdai Huang"
         authors: "Boehm, Fize, Jaravel"
         title: "Five Facts about MPCs: Evidence from a Randomized Experiment"
+        paper_url: "https://jmboehm.github.io/Helicopter.pdf"
+        slides: "/files/slides/2024-spring/2024-01-30-huang.pdf"
       - date: 2024-02-06
         presenter: "Bill Shu"
         authors: "Pallotti, Paz-Pardo, Slacalek, Tristani, Violante"
         title: "Who Bears the Costs of Inflation? Euro Area Households and the 2021–2022 Shock"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31896/w31896.pdf"
+        slides: "/files/slides/2024-spring/2024-02-06-shu.pdf"
       - date: 2024-02-13
         status: break
         note: "No meeting"
@@ -368,18 +398,25 @@ semesters:
         presenter: "Francisco Amor"
         authors: "Hack, Istrefi, Meier"
         title: "Identification of Systematic Monetary Policy"
+        paper_url: "https://matthias-meier-econ.github.io/files/HIM_SysMP.pdf"
+        slides: "/files/slides/2024-spring/2024-02-20-amor.pdf"
       - date: 2024-02-27
         presenter: "Joon Kim"
         authors: "Graves, Huckfeldt, Swanson"
         title: "Labor Demand and Labor Supply Channels of Monetary Policy"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31770/w31770.pdf"
+        slides: "/files/slides/2024-spring/2024-02-27-kim.pdf"
       - date: 2024-03-05
         presenter: "Jingyi Li"
         authors: "Freund"
         title: "Superstar Teams: The Micro Origins and Macro Implications of Coworker Complementarities"
+        paper_url: "https://lukasbfreund.github.io/files/freund_jmp.pdf"
       - date: 2024-03-12
         presenter: "Benjamín Castiglione"
         authors: "Mukhin, Itskhoki"
         title: "What Drives Exchange Rates?"
+        paper_url: "https://www.nber.org/system/files/working_papers/w32008/w32008.pdf"
+        slides: "/files/slides/2024-spring/2024-03-12-castiglione.pdf"
       - date: 2024-03-19
         status: break
         note: "Spring break"
@@ -387,26 +424,38 @@ semesters:
         presenter: "Matteo Cremonini"
         authors: "Sangani"
         title: "Markups Across the Income Distribution: Measurement and Implications"
+        paper_url: "https://kunalsangani.com/files/income_markups_live.pdf"
+        slides: "/files/slides/2024-spring/2024-03-26-cremonini.pdf"
       - date: 2024-04-02
         presenter: "Hyein Han"
         authors: "Bazzi, Muendler, Oliveira, Rauch"
         title: "Credit Supply Shocks and Firm Dynamics: Evidence from Brazil"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31721/w31721.pdf"
+        slides: "/files/slides/2024-spring/2024-04-02-han.pdf"
       - date: 2024-04-09
         presenter: "Tanvi Bansal"
         authors: "Ottonello, Winberry"
         title: "Capital, Ideas, and the Costs of Financial Frictions"
+        paper_url: "https://www.thomaswinberry.com/research/ottonello_winberry_2024.pdf"
+        slides: "/files/slides/2024-spring/2024-04-09-bansal.pdf"
       - date: 2024-04-16
         presenter: "Janet Choi"
         authors: "Aruoba, Drechsel"
         title: "Identifying Monetary Policy Shocks: A Natural Language Approach"
+        paper_url: "http://econweb.umd.edu/~drechsel/papers/Aruoba_Drechsel.pdf"
+        slides: "/files/slides/2024-spring/2024-04-16-choi.pdf"
       - date: 2024-04-23
         presenter: "Al-Mahdi Ebsim"
         authors: "Waugh"
         title: "Heterogeneous Agent Trade"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31810/w31810.pdf"
+        slides: "/files/slides/2024-spring/2024-04-23-ebsim.pdf"
       - date: 2024-04-30
         presenter: "Myunghwan Andrew Lee"
         authors: "Acosta, Mueller, Nakamura, Steinsson"
         title: "Macroeconomic Effects of UI Extensions at Short and Long Durations"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31784/w31784.pdf"
+        slides: "/files/slides/2024-spring/2024-04-30-lee.pdf"
 
   # ==========================================================================
   - id: 2023-fall
@@ -420,42 +469,62 @@ semesters:
         presenter: "Chengdai Huang"
         authors: "Berger et al."
         title: "An Anatomy of Monopsony: Search Frictions, Amenities, and Bargaining in Concentrated Markets"
+        paper_url: "https://drive.google.com/file/d/1EC3cyySDm5W11sIJH2jFjODc_abwCBTi/view?usp=sharing"
+        slides: "/files/slides/2023-fall/2023-09-13-huang.pdf"
       - date: 2023-09-20
         presenter: "Julien Weber"
         authors: "Di Tella, Hébert, Kurlat, Wang"
         title: "The Zero-Beta Rate"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31596/w31596.pdf"
+        slides: "/files/slides/2023-fall/2023-09-20-weber.pdf"
       - date: 2023-09-27
         presenter: "Nicolò Ceneri"
         authors: "Nord"
         title: "Shopping, Demand Composition and Equilibrium Prices"
+        paper_url: "https://lukasnord.eu/files/Nord_JMP.pdf"
+        slides: "/files/slides/2023-fall/2023-09-27-ceneri.pdf"
       - date: 2023-10-04
         presenter: "Joon Kim"
         authors: "Alves, Violante"
         title: "Some Like It Hot: Inclusive Monetary Policy Under Okun's Hypothesis"
+        paper_url: "https://drive.google.com/file/d/1qTdgFt4M7hFbxylkTHmFpJWtZ0cUyJYh/view?usp=sharing"
+        slides: "/files/slides/2023-fall/2023-10-04-kim.pdf"
       - date: 2023-10-11
         presenter: "Al-Mahdi Ebsim"
         authors: "Bocola, Bornstein"
         title: "The Macroeconomics of Trade Credit"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31026/w31026.pdf"
+        slides: "/files/slides/2023-fall/2023-10-11-ebsim.pdf"
       - date: 2023-10-18
         presenter: "Benjamín Castiglione"
         authors: "Angeletos, Lian, Wolf"
         title: "Can Deficits Finance Themselves?"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31185/w31185.pdf"
+        slides: "/files/slides/2023-fall/2023-10-18-castiglione.pdf"
       - date: 2023-10-25
         presenter: "Francisco Amor"
         authors: "Lorenzoni, Werning"
         title: "Inflation is Conflict"
+        paper_url: "https://conference.nber.org/conf_papers/f188954.pdf"
+        slides: "/files/slides/2023-fall/2023-10-25-amor.pdf"
       - date: 2023-11-01
         presenter: "Nadia Pozdnyakova"
         authors: "Fukui, Nakamura, Steinsson"
         title: "The Macroeconomic Consequences of Exchange Rate Depreciations"
+        paper_url: "https://www.nber.org/system/files/working_papers/w31279/w31279.pdf"
+        slides: "/files/slides/2023-fall/2023-11-01-pozdnyakova.pdf"
       - date: 2023-11-08
         presenter: "Hyein Han"
         authors: "Fernandes, Rigato"
         title: "Precautionary Savings and Stabilization Policy in a Present Biased Economy"
+        paper_url: "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/rigato/files/jmp_site.pdf"
+        slides: "/files/slides/2023-fall/2023-11-08-han.pdf"
       - date: 2023-11-15
         presenter: "Jingyi Li"
         authors: "La'O, Morrison"
         title: "Optimal Monetary Policy with Redistribution"
+        paper_url: "https://static1.squarespace.com/static/5b60930df793921c7741efe3/t/64889c40852af9652e961b35/1686674496764/redist-monetary-draft-Jun13.pdf"
+        slides: "/files/slides/2023-fall/2023-11-15-li.pdf"
       - date: 2023-11-22
         status: break
         note: "Fall break"
@@ -463,14 +532,19 @@ semesters:
         presenter: "Bill Shu"
         authors: "Bordalo, Gennaioli, La Porta, Shleifer"
         title: "Errors in Expectations and Economic Fluctuations"
+        paper_url: "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/shleifer/files/nber.bglos_.may25.pdf"
+        slides: "/files/slides/2023-fall/2023-11-29-shu.pdf"
       - date: 2023-12-06
         presenter: "Janet Choi"
         authors: "Bahaj, Czech, Ding, Reis"
         title: "The Market for Inflation Risk"
+        paper_url: "https://deliverypdf.ssrn.com/delivery.php?ID=036104118122112090077076025123071091118034032080036086072001112090126069118102027095039031120001116015022110018078102117011028061050017010060098002096079122124126007088053079115113089096000014126118001071001126114003099105096119066096097066012006000009&EXT=pdf&INDEX=TRUE"
+        slides: "/files/slides/2023-fall/2023-12-06-choi.pdf"
       - date: 2023-12-13
         presenter: "Doruk Gökalp"
         authors: "Kaplan, Nikolakoudis, Violante"
         title: "Price Level and Inflation Dynamics in Heterogeneous Agent Economies"
+        paper_url: "https://drive.google.com/file/d/1uH0gdxMnd0pgGXrYX9jpWkTe9WIonE5h/view?usp=sharing"
 
   # ==========================================================================
   - id: 2023-spring
@@ -500,10 +574,14 @@ semesters:
         presenter: "Tommaso De Santo"
         authors: "Kleinman"
         title: "Wage Inequality and the Spatial Expansion of Firms"
+        paper_url: "https://binyamink.github.io/bennykleinman/bk_JMP.pdf"
+        slides: "/files/slides/2023-spring/2023-03-01-santo.pdf"
       - date: 2023-03-08
         presenter: "Julien Weber"
         authors: "Oberfield"
         title: "Inequality and Measured Growth"
+        paper_url: "https://drive.google.com/file/d/1dHxEi0SBa2dhcCGNRyoosXbm_QKpBLyp/view?usp=sharing"
+        slides_url: "https://drive.google.com/file/d/1lK5fUXemdJwJHY4ehacsYqHmHbApcTIn/view?usp=sharing"
       - date: 2023-03-15
         status: break
         note: "Spring break"
@@ -514,10 +592,14 @@ semesters:
         presenter: "Shi Hu"
         authors: "Davis, Krolikowski"
         title: "Sticky Wages on the Layoff Margin"
+        paper_url: "https://static1.squarespace.com/static/5e2ea3a8097ed30c779bd707/t/63f40d16f2c62a3fade77514/1676938520560/Sticky+Wages+on+the+Layoff+Margin%2C+20+February+2023.pdf"
+        slides: "/files/slides/2023-spring/2023-03-29-hu.pdf"
       - date: 2023-04-05
         presenter: "Audrey Azerot"
         authors: "Cerrato, Gitti"
         title: "Inflation Since Covid: Demand or Supply"
+        paper_url: "https://deliverypdf.ssrn.com/delivery.php?ID=740102120112122025001094000090085098016073055036039026094122100075068094031125020111057021116004010037021071029019000080105031041086005060042093101123000010122071089062011064009080031107068011124125097088086083121098067004030029071017090011085070077009&EXT=pdf&INDEX=TRUE"
+        slides: "/files/slides/2023-spring/2023-04-05-azerot.pdf"
       - date: 2023-04-12
         status: break
         note: "No session listed on the previous site"
@@ -528,10 +610,13 @@ semesters:
         presenter: "Felipe Camelo"
         authors: "Brunnermeier, Correia, Luck, Verner, Zimmermann"
         title: "The Debt-Inflation Channel of the German Hyperinflation"
+        paper_url: "https://www.bancaditalia.it/pubblicazioni/altri-atti-seminari/2022/Verner_paper.pdf"
+        slides: "/files/slides/2023-spring/2023-04-26-camelo.pdf"
       - date: 2023-05-03
         presenter: "Doruk Gökalp"
         authors: "Amiti, Heise, Karahan, Şahin"
         title: "Inflation Strikes Back: The Return of Wage to Price Pass-through"
+        paper_url: "https://www.nber.org/system/files/chapters/c14851/c14851.pdf"
 
   # ==========================================================================
   - id: 2022-fall
@@ -545,42 +630,62 @@ semesters:
         presenter: "Cesar Zambrano"
         authors: "David, Ranciere, Zeke"
         title: "International Diversification, Reallocation, and the Labor Share"
+        paper_url: "https://www.lse.ac.uk/CFM/assets/pdf/MM-Seminars-2021-22/RanciereR-MMSeminar.pdf"
+        slides: "/files/slides/2022-fall/2022-09-14-zambrano.pdf"
       - date: 2022-09-21
         presenter: "Shi Hu"
         authors: "Aguiar, Amador, Arellano"
         title: "Micro Risks and (Robust) Pareto Improving Policies"
+        paper_url: "https://www.markaguiar.com/files/R_less_than_1_in_Aiyagari.pdf"
+        slides: "/files/slides/2022-fall/2022-09-21-hu.pdf"
       - date: 2022-09-28
         presenter: "William Witheridge"
         authors: "Itskhoki, Mukhin"
         title: "Optimal Exchange Rate Policy"
+        paper_url: "https://itskhoki.com/papers/ERpolicy.pdf"
+        slides: "/files/slides/2022-fall/2022-09-28-witheridge.pdf"
       - date: 2022-10-05
         presenter: "Doruk Gökalp"
         authors: "Debortoli, Galí"
         title: "Idiosyncratic Income Risk and Aggregate Fluctuations"
+        paper_url: "https://www.nber.org/system/files/working_papers/w29704/w29704.pdf"
+        slides: "/files/slides/2022-fall/2022-10-05-gokalp.pdf"
       - date: 2022-10-12
         presenter: "Giovanni Topa"
         authors: "Coglianese, Olsson, Patterson"
         title: "Monetary Policy and the Labor Market: A Quasi-Experiment in Sweden"
+        paper_url: "http://congress-files.s3.amazonaws.com/2022-08/Sweden_recent.pdf"
+        slides: "/files/slides/2022-fall/2022-10-12-topa.pdf"
       - date: 2022-10-19
         presenter: "Mahdi Ebsim"
         authors: "Auclert, Rigato, Rognlie, Straub"
         title: "New Pricing Models, Same Old Phillips Curves?"
+        paper_url: "http://web.stanford.edu/~aauclert/new_old_phillips_curves.pdf"
+        slides: "/files/slides/2022-fall/2022-10-19-ebsim.pdf"
       - date: 2022-10-26
         presenter: "Nadia Pozdnyakova"
         authors: "Coulibaly, Bianchi"
         title: "Liquidity Traps, Prudential Policies, and International Spillovers"
+        paper_url: "https://www.nber.org/system/files/working_papers/w30038/w30038.pdf"
+        slides: "/files/slides/2022-fall/2022-10-26-pozdnyakova.pdf"
       - date: 2022-11-02
         presenter: "Chengdai Huang"
         authors: "Kaplan, Violante"
         title: "The Marginal Propensity to Consume in Heterogeneous Agent Models"
+        paper_url: "https://www.annualreviews.org/doi/pdf/10.1146/annurev-economics-080217-053444"
+        slides: "/files/slides/2022-fall/2022-11-02-huang.pdf"
       - date: 2022-11-09
         presenter: "Andres Ghini"
         authors: "Werning"
         title: "Expectations and the Rate of Inflation"
+        paper_url: "https://www.nber.org/system/files/working_papers/w30260/w30260.pdf"
+        slides: "/files/slides/2022-fall/2022-11-09-ghini.pdf"
       - date: 2022-11-16
         presenter: "Tommaso De Santo"
         authors: "Fagereng, Gomez, Gouin-Bonenfant, Holm, Moll, Natvik"
         title: "Asset-Price Redistribution"
+        paper_url: "https://www.matthieugomez.com/files/apr.pdf"
+        slides: "/files/slides/2022-fall/2022-11-16-santo.pdf"
       - date: 2022-11-23
         status: break
         note: "Fall break"
@@ -588,14 +693,20 @@ semesters:
         presenter: "Felipe Camelo"
         authors: "Orchard, Ramey, Wieland"
         title: "Micro MPCs and Macro Counterfactuals: The Case of the 2008 Rebates"
+        paper_url: "https://econweb.ucsd.edu/~vramey/research/Micro_MPCs_and_Macro_Counterfactuals.pdf"
+        slides_url: "https://drive.google.com/file/d/1iWZkZ7MIuKYG2uqJomJO1Q2zHXqNjr7Q/view?usp=sharing"
       - date: 2022-12-07
         presenter: "Man Chon (Tommy) Iao"
         authors: "Dávila, Schaab"
         title: "Optimal Monetary Policy with Heterogeneous Agents: A Timeless Ramsey Approach"
+        paper_url: "https://www.eduardodavila.com/research/davila_schaab_timeless_ramsey.pdf"
+        slides: "/files/slides/2022-fall/2022-12-07-iao.pdf"
       - date: 2022-12-14
         presenter: "Audrey Azerot"
         authors: "Bilbiie, Primiceri, Tambalotti"
         title: "Inequality and Business Cycles"
+        paper_url: "https://faculty.wcas.northwestern.edu/gep575/Inequality_BC1-10.pdf"
+        slides: "/files/slides/2022-fall/2022-12-14-azerot.pdf"
 
   # ==========================================================================
   - id: 2022-spring
@@ -608,14 +719,18 @@ semesters:
         presenter: "Felipe Camelo"
         authors: "Aristizabal-Ramirez"
         title: "Dynamics of Corporate Credit Markets, Employment, and Wages: Evidence from Colombia"
+        paper_url: "https://www.dropbox.com/s/jetnwlbskebolvi/JMP_MariaAristizabal-Ramirez.pdf?dl=0"
+        slides: "/files/slides/2022-spring/2022-02-01-camelo.pdf"
       - date: 2022-02-08
         presenter: "Guillaume Nevo"
         authors: "Ghassibe"
         title: "Monetary Policy and Production Networks: An Empirical Investigation"
+        paper_url: "https://ghassibem.github.io/Ghassibe_jmp.pdf"
       - date: 2022-02-15
         presenter: "Jae-Hyung Kim"
         authors: "Buera, Hopenhayn, Shin, Trachter"
         title: "Big Push in Distorted Economies"
+        paper_url: "https://www.dropbox.com/s/0mi42irf9dbxtk6/Draft_2021_March.pdf?dl=0"
       - date: 2022-02-22
         presenter: "Qinzhou Gong"
         authors: "Finlay"
@@ -624,10 +739,14 @@ semesters:
         presenter: "Cesar Zambrano"
         authors: "Ma"
         title: "Specialization in a Knowledge Economy"
+        paper_url: "https://drive.google.com/file/d/1i8hFlPaxQG1RoPWV8o2jjPR7yJZH9ViB/view"
+        slides: "/files/slides/2022-spring/2022-03-01-zambrano.pdf"
       - date: 2022-03-08
         presenter: "Man Chon (Tommy) Iao"
         authors: "Weber et al."
         title: "Inclusive Monetary Policy: How Tight Labor Markets Facilitate Broad-Based Employment Growth"
+        paper_url: "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/inclusive-monetary-policy.pdf"
+        slides: "/files/slides/2022-spring/2022-03-08-iao.pdf"
       - date: 2022-03-15
         status: break
         note: "Spring break"
@@ -635,34 +754,47 @@ semesters:
         presenter: "Giacomo Cattelan"
         authors: "Farmer, Nakamura, Steinsson"
         title: "Learning About the Long Run"
+        paper_url: "https://eml.berkeley.edu/~enakamura/papers/learning.pdf"
+        slides: "/files/slides/2022-spring/2022-03-22-cattelan.pdf"
       - date: 2022-03-29
         presenter: "Luca Gagliardone"
         authors: "Sastry"
         title: "Attention Cycles"
+        paper_url: "https://economics.mit.edu/files/20302"
+        slides: "/files/slides/2022-spring/2022-03-29-gagliardone.pdf"
       - date: 2022-04-05
         presenter: "Diva Astinova"
         authors: "Prato"
         title: "The Global Race for Talent: Brain Drain, Knowledge Transfer, and Economic Growth"
+        paper_url: "https://drive.google.com/file/d/1AdHMVfhKBpf2_gTxIRYBKlTBy8x6XvgH/view"
+        slides: "/files/slides/2022-spring/2022-04-05-astinova.pdf"
       - date: 2022-04-12
         presenter: "Nadia Pozdnyakova"
         authors: "Auclert, Rognlie, Souchier, Straub"
         title: "Exchange Rates and Monetary Policy with Heterogeneous Agents: Sizing Up the Real Income Channel"
+        paper_url: "http://web.stanford.edu/~aauclert/ha_oe.pdf"
+        slides: "/files/slides/2022-spring/2022-04-12-pozdnyakova.pdf"
       - date: 2022-04-19
         presenter: "Brandon Kaplowitz"
         authors: "Angeletos, Sastry"
         title: "Managing Expectations: Instruments versus Targets"
+        paper_url: "https://economics.mit.edu/files/19331"
+        slides: "/files/slides/2022-spring/2022-04-19-kaplowitz.pdf"
       - date: 2022-04-26
         presenter: "Fernando Cirelli"
         authors: "McKay, Wolf"
         title: "Optimal Policy Rules in HANK"
+        paper_url: "https://alisdairmckay.com/pdfs/hank_optpol.pdf"
       - date: 2022-05-03
         presenter: "Aleksandra Alferova"
         authors: "Qiao, Wei"
         title: "An Anatomy of the Repo Market Crash"
+        paper_url: "https://static1.squarespace.com/static/6174467c02d4700da6d6f986/t/629660cf1356887cf53f02d2/1654022392827/Wei_Qiao_JMP.pdf"
       - date: 2022-05-10
         presenter: "Shi Hu"
         authors: "Aguiar, Amador, Arellano"
         title: "Micro Risks and Pareto Improving Policies"
+        paper_url: "https://78462f86-a-1555c7db-s-sites.googlegroups.com/a/cristinaarellano.com/www/aaa_pareto.pdf?attachauth=ANoY7cqMx_fVxoFy8AT5CoFo53avQ3U9nUB8aqDn-MeEuxM2qc8Nn0mhlN-yuAmXEf-xKxz2_2cK_cBwEEHLjdQ-JBsLY7PY_oQVJNBjX1Wsth7Hac_LnV3PFysjAgQ3KhmxGjgVGGwx-QVEUh-ZoTik7FHuksEdiei-b_dUWYBZdfcJiWvDgnfvlSsuolfZMQcu918dFlDOWwiLSPqm4vO7O3bBc32u1w%3D%3D&attredirects=0"
 
   # ==========================================================================
   - id: 2021-fall
@@ -675,54 +807,77 @@ semesters:
         presenter: "François Miguet"
         authors: "De Loecker, Eeckhout, Mongey"
         title: "Quantifying Market Power and Business Dynamism in the Macroeconomy"
+        paper_url: "https://drive.google.com/file/d/1SJlCC8VOy0M0jzb71JSIA5mG87KeuueU/view"
+        slides: "/files/slides/2021-fall/2021-09-15-miguet.pdf"
       - date: 2021-09-22
         presenter: "Melanie Friedrichs and Brandon Kaplowitz"
         authors: "Mian, Straub, Sufi"
         title: "A Goldilocks Theory of Fiscal Policy"
+        paper_url: "https://scholar.harvard.edu/files/straub/files/goldilocks.pdf"
       - date: 2021-09-29
         presenter: "Nadia Pozdnyakova"
         authors: "De Ferra, Mitman, Romei"
         title: "Why Does Capital Flow from Equal to Unequal Countries?"
+        paper_url: "https://economics.nd.edu/assets/424294/cepr_dp15647.pdf"
+        slides: "/files/slides/2021-fall/2021-09-29-pozdnyakova.pdf"
       - date: 2021-10-06
         presenter: "Man Chon (Tommy) Iao"
         authors: "McKay, Wolf"
         title: "What Can Time-Series Regressions Tell Us About Policy Counterfactuals?"
+        paper_url: "https://alisdairmckay.com/pdfs/lucas_policy.pdf"
+        slides: "/files/slides/2021-fall/2021-10-06-iao.pdf"
       - date: 2021-10-13
         presenter: "Felipe Camêlo"
         authors: "Hubmer, Restrepo"
         title: "Not a Typical Firm: The Joint Dynamics of Firms, Labor Shares, and Capital-Labor Substitution"
+        paper_url: "https://drive.google.com/file/d/1DtfaJ1ChyL4LXXXzQ1OqqDCW8xbqYS8x/view"
+        slides: "/files/slides/2021-fall/2021-10-13-camelo.pdf"
       - date: 2021-10-20
         presenter: "Anuraag Aekka"
         authors: "Angeletos, Huo"
         title: "Myopia and Anchoring"
+        paper_url: "https://economics.mit.edu/files/22015"
+        slides: "/files/slides/2021-fall/2021-10-20-aekka.pdf"
       - date: 2021-10-27
         presenter: "Andres Ghini"
         authors: "Guerrieri, Lorenzoni, Straub, Werning"
         title: "Monetary Policy in Times of Structural Reallocation"
+        paper_url: "https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/6/1682/files/2021/09/Draft-Reallocation-JH-2021-3.pdf"
       - date: 2021-11-03
         presenter: "Jae-Hyung Kim"
         authors: "Robinson"
         title: "Risky Business: The Choice of Entrepreneurial Risk under Incomplete Markets"
+        paper_url: "https://baxter-robinson.github.io/Robinson_JMP.pdf"
       - date: 2021-11-10
         presenter: "Qinzhou Gong"
         authors: "Cavalcanti, Kaboski, Martins"
         title: "Dispersion in Financing Costs and Development"
+        paper_url: "https://www3.nd.edu/~jkaboski/CKMS.pdf"
+        slides: "/files/slides/2021-fall/2021-11-10-gong.pdf"
       - date: 2021-11-17
         presenter: "Masayuki Okada"
         authors: "Bayer, Born, Luetticke"
         title: "The Liquidity Channel of Fiscal Policy"
+        paper_url: "https://www.benjaminborn.de/files/BBL_Fiscal_Liquidity_Sept_2021.pdf"
+        slides: "/files/slides/2021-fall/2021-11-17-okada.pdf"
       - date: 2021-11-24
         presenter: "Cesar Zambrano"
         authors: "Basu, Candian, Chahrour, Valchev"
         title: "Risky Business Cycles"
+        paper_url: "https://www.bc.edu/content/dam/bc1/schools/mcas/economics/pdf/working-papers/1000/wp1029.pdf"
+        slides: "/files/slides/2021-fall/2021-11-24-zambrano.pdf"
       - date: 2021-12-01
         presenter: "Diva Astinova"
         authors: "Acemoglu, Autor, Patterson"
         title: "Bottlenecks: Sectoral Imbalances and the US Productivity Slowdown"
+        paper_url: "https://conference.nber.org/conf_papers/f149003.pdf"
+        slides: "/files/slides/2021-fall/2021-12-01-astinova.pdf"
       - date: 2021-12-08
         presenter: "Giacomo Cattelan"
         authors: "Boissay, Collard, Galí, Manea"
         title: "Monetary Policy and Endogenous Financial Crises"
+        paper_url: "https://www.ecb.europa.eu/pub/conferences/shared/pdf/20211011_mon_pol_conf/Gali.pdf"
+        slides: "/files/slides/2021-fall/2021-12-08-cattelan.pdf"
       - date: 2021-12-15
         presenter: "Shi Hu"
         authors: "Lee"
@@ -740,58 +895,78 @@ semesters:
         presenter: "Felipe Camelo"
         authors: "Kopytov, Roussanov, Taschereau-Dumouchel"
         title: "Cheap Thrills: The Price of Leisure and the Global Decline in Work Hours"
+        paper_url: "https://www.mathtd.info/files/papers/Recreation_prices/paper.pdf"
+        slides_url: "https://drive.google.com/file/d/1eaeiBbVm8UTiRU3uHUZX1P80g42lCk_D/view?usp=sharing"
       - date: 2021-02-16
         presenter: "William Witheridge"
         authors: "Rachel"
         title: "Leisure-Enhancing Technological Change"
+        paper_url: "https://drive.google.com/file/d/1CSaRRISNqE47NSx03oNIl5RDu3Oza9N3/view?usp=sharing"
+        slides_url: "https://drive.google.com/file/d/1Grnadq0aSr1NYhJJY89hXQpxbsz_xnfZ/view?usp=sharing"
       - date: 2021-02-23
         presenter: "Qinzhou Gong"
         authors: "Feijoo-Moreira"
         title: "Provider-Driven Complementarity and Firm Dynamics"
+        paper_url: "https://sergiofeijoo.github.io/files/SFeijoo.ProviderDriven.pdf"
+        slides_url: "https://drive.google.com/file/d/1IZCvb_rIoBKRZC8C9vLv0m21nufL9xtR/view?usp=sharing"
       - date: 2021-03-02
         presenter: "Do Lee"
         authors: "Laibson, Maxted, Moll"
         title: "Present Bias Amplifies the Household Balance-Sheet Channels of Macroeconomic Policy"
+        paper_url: "https://benjaminmoll.com/wp-content/uploads/2020/08/PBMP.pdf"
       - date: 2021-03-09
         presenter: "Luca Gagliardone and Nacho Cigliutti"
         authors: "Baqaee, Farhi, Sangani"
         title: "The Supply-Side Effects of Monetary Policy"
+        paper_url: "https://drive.google.com/file/d/1jvTNd_p3wqAoy-9mdGyiXx7pLa2PDrst/view?usp=sharing"
       - date: 2021-03-16
         presenter: "Man Chon (Tommy) Iao"
         authors: "Wolf"
         title: "Interest Rate Cuts vs. Stimulus Payments: A Macro Equivalence Result"
+        paper_url: "https://scholar.princeton.edu/sites/default/files/ckwolf/files/mp_equiv.pdf"
+        slides_url: "https://drive.google.com/file/d/1JXmyTYyvu-FPFfjVF9Ftii0sA29uOFE3/view?usp=sharing"
       - date: 2021-03-23
         presenter: "Diva Astinova and Teresa Steininger"
         authors: "Bardóczy"
         title: "Spousal Insurance and the Amplification of Business Cycles"
+        paper_url: "https://www.bencebardoczy.com/publication/bardoczy_jmp/bardoczy_jmp.pdf"
+        slides_url: "https://drive.google.com/file/d/1JVXhC5RC-oquLWEXmQFRuO0cSbE6Bc-B/view?usp=sharing"
       - date: 2021-03-30
         presenter: "Chitra Marti"
         authors: "Olmstead-Rumsey"
         title: "Market Concentration and the Productivity Slowdown"
+        paper_url: "https://nbviewer.jupyter.org/github/jmo438/webfiles2/blob/master/jmp_draft.pdf"
+        slides_url: "https://drive.google.com/file/d/10wiXYEanKjpl-Pn2ia-BpXkeFr0KXQ8g/view?usp=sharing"
       - date: 2021-04-06
         presenter: "Cesar Zambrano"
         authors: "vom Lehn, Winberry"
         title: "The Investment Network, Sectoral Comovement, and the Changing U.S. Business Cycle"
+        paper_url: "https://www.thomaswinberry.com/research/vomlehn_winberry_2020.pdf"
       - date: 2021-04-13
         presenter: "François Miguet"
         authors: "Schaab"
         title: "Micro and Macro Uncertainty"
+        paper_url: "https://andreasschaab.com/wp-content/uploads/2020/11/JMP.pdf"
       - date: 2021-04-20
         presenter: "Aleksandra Alferova"
         authors: "Jamilov"
         title: "A Macroeconomic Model with Heterogeneous Banks"
+        paper_url: "https://aaee7d5c-9350-43f7-9743-d16131aac2f5.filesusr.com/ugd/574234_9f82b9c5e6e04cf4aea748991b78a843.pdf?index=true"
       - date: 2021-04-27
         presenter: "Giacomo Cattelan and Nadia Pozdnyakova"
         authors: "Maxted"
         title: "A Macro-Finance Model with Sentiment"
+        paper_url: "https://scholar.harvard.edu/files/maxted/files/macrofinancesentimentmain_nov13.pdf"
       - date: 2021-05-04
         presenter: "Melanie Friedrichs and Brandon Kaplowitz"
         authors: "Auclert, Malmberg, Martenet, Rognlie"
         title: "Demographics, Wealth and Global Imbalances in the Twenty-First Century"
+        paper_url: "http://web.stanford.edu/~aauclert/demowealth21.pdf"
       - date: 2021-05-11
         presenter: "Anuraag Aekka"
         authors: "de Souza"
         title: "The Labor Market Consequences of Appropriate Technology"
+        paper_url: "https://drive.google.com/file/d/18A0lJSYzfzOp6M5G6pDJm5vzvLLl-KNf/view"
 
   # ==========================================================================
   - id: 2020-fall
@@ -805,22 +980,31 @@ semesters:
         presenter: "Fernando Cirelli"
         authors: "Guerrieri, Lorenzoni, Straub, Werning"
         title: "Macroeconomic Implications of COVID-19: Can Negative Supply Shocks Cause Demand Shortages?"
+        paper_url: "https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/6/1682/files/2020/07/macro_covid_GLSW_July_2020.pdf"
+        slides_url: "https://drive.google.com/file/d/1nGvO3oNpXVVrD5KJLUvRwCBnyWU_lwa7/view?usp=sharing"
       - date: 2020-09-16
         presenter: "Felipe Camelo and Guillaume Nevo"
         authors: "Bilal, Engbom, Mongey, Violante"
         title: "Firm and Worker Dynamics in a Frictional Labor Market"
+        paper_url: "http://www.simonmongey.com/uploads/6/5/6/6/65665741/bilal_engbom_mongey_violante__wp_2019__-_firm_and_worker_dynamics.pdf"
+        slides_url: "https://drive.google.com/file/d/14V_CP3vCSx4CfbGe8hJDtJtQIDvAcn6C/view?usp=sharing"
       - date: 2020-09-23
         presenter: "William Witheridge"
         authors: "Wolf"
         title: "The Missing Intercept: A Demand Equivalence Approach"
+        paper_url: "https://scholar.princeton.edu/sites/default/files/ckwolf/files/missing_intercept.pdf"
+        slides_url: "https://drive.google.com/file/d/1KoAa1MP3qfijm89j3WDrtHUJAT7cqikm/view?usp=sharing"
       - date: 2020-09-30
         presenter: "Chitra Marti"
         authors: "Walsh"
         title: "Firm Creation and Local Growth"
+        paper_url: "https://static1.squarespace.com/static/5b4b997eda02bc592b5131cd/t/5e0b6250a5b0832cb7765b1b/1577804383083/Walsh_JMP.pdf"
+        slides_url: "https://drive.google.com/file/d/1eDT3UeSiBdZ0sX1HSFQYN5mCqetduKwo/view?usp=sharing"
       - date: 2020-10-07
         presenter: "Brandon Kaplowitz"
         authors: "Kaplan, Moll, Violante"
         title: "The Great Lockdown and the Big Stimulus: Tracing the Pandemic Possibility Frontier for the U.S."
+        paper_url: "https://benjaminmoll.com/wp-content/uploads/2020/08/PPF.pdf"
       - date: 2020-10-14
         presenter: "Aleksandra Alferova and Paolo Varraso"
         authors: "Kekre, Lenel"
@@ -829,38 +1013,50 @@ semesters:
         presenter: "Giacomo Cattelan"
         authors: "Greenwald, Krainer, Paul"
         title: "The Credit Line Channel"
+        paper_url: "http://www.dlgreenwald.com/uploads/4/5/2/8/45280895/credit_line_channel.pdf"
       - date: 2020-10-28
         presenter: "Teresa Steininger"
         authors: "Morchio, Moser"
         title: "The Gender Pay Gap: Micro Sources and Macro Consequences"
+        paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3176868"
       - date: 2020-11-04
         presenter: "Cesar Zambrano"
         authors: "Rotberg, Steinberg"
         title: "The Economic Effects of Wealth Taxes and Wealth Tax Evasion"
+        paper_url: "https://www.joesteinberg.com/pdf/Wealth_tax_evasion"
+        slides_url: "https://drive.google.com/file/d/1XmKt2b0HYJDuliVMlQBX87EjllIHrQh8/view?usp=sharing"
       - date: 2020-11-11
         presenter: "Man Chon (Tommy) Iao"
         authors: "Ilut, Valchev"
         title: "Economic Agents as Imperfect Problem Solvers"
+        paper_url: "https://drive.google.com/file/d/1IvKhhKi1WDVSC57Apzrvf9tlTcjRRr-s/view"
+        slides_url: "https://drive.google.com/file/d/1G-D_OqmsVdJ6tzmsZybU47w9AI57p_5Z/view?usp=sharing"
       - date: 2020-11-18
         presenter: "Qinzhou Gong"
         authors: "Boerma, McGrattan"
         title: "Quantifying Efficient Tax Reform"
+        paper_url: "http://users.cla.umn.edu/~erm/data/sed2020/ucb.pdf"
+        slides_url: "https://drive.google.com/file/d/1Q-vRDZoKaRiM0C7xL6M7sQ1mpcyke_Zk/view?usp=sharing"
       - date: 2020-11-25
         presenter: "Do Lee"
         authors: "Di Tella, Hall"
         title: "Risk Premium Shocks Can Create Inefficient Recessions"
+        paper_url: "https://web.stanford.edu/~sditella/Papers/Risk_premium_business_cycles.pdf"
       - date: 2020-12-02
         presenter: "Nadia Pozdnyakova"
         authors: "Bayer, Born, Luetticke"
         title: "Shocks, Frictions and Inequality in US Business Cycles"
+        paper_url: "https://www.ralphluetticke.com/files/BBL_Inequality_Nov_2020.pdf"
       - date: 2020-12-09
         presenter: "Andres Ghini and Marcos Sonnervig"
         authors: "Le Grand, Martin-Baillon, Ragot"
         title: "Should Monetary Policy Care About Redistribution?"
+        paper_url: "http://xavier-ragot.fr/pdf/progress/Redaction_Optimal_money_fiscal27_online.pdf"
       - date: 2020-12-16
         presenter: "Luca Gagliardone"
         authors: "Wang, Werning"
         title: "Dynamic Oligopoly and Price Stickiness"
+        paper_url: "https://www.dropbox.com/s/7z8z0id4kcqm2b8/oligopoly_new.pdf?raw=1"
 
   # ==========================================================================
   - id: 2020-spring
@@ -874,26 +1070,35 @@ semesters:
         presenter: "Federico Kochen"
         authors: "De Ridder"
         title: "Market Power and Innovation in the Intangible Economy"
+        paper_url: "http://www.centreformacroeconomics.ac.uk/Discussion-Papers/2019/CFMDP2019-07-Paper.pdf"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdlN1pObHVQd0tuNzB1TVhSR0xKTTFsZzM3RkJB"
       - date: 2020-02-11
         presenter: "Marcos Sonnervig and Matheus Silva"
         authors: "Mian, Straub, Sufi"
         title: "Indebted Demand"
+        paper_url: "https://scholar.harvard.edu/files/straub/files/mss_indebteddemand.pdf"
       - date: 2020-02-18
         presenter: "Fernando Cirelli"
         authors: "Brunnermeier, Koby"
         title: "The Reversal Interest Rate"
+        paper_url: "https://scholar.princeton.edu/sites/default/files/markus/files/25b_reversalrate.pdf"
+        slides_url: "https://drive.google.com/open?id=1shOsuXyEa12Rs9NotK1ABx4RxlYeoxoK"
       - date: 2020-02-25
         presenter: "Aleksandra Alferova"
         authors: "Rubbo"
         title: "Networks, Phillips Curves and Monetary Policy"
+        paper_url: "https://scholar.harvard.edu/files/elisarubbo/files/rubbo_jmp.pdf"
       - date: 2020-03-03
         presenter: "William Witheridge"
         authors: "Lian"
         title: "Consumption with Imperfect Perception of Wealth"
+        paper_url: "https://economics.mit.edu/files/18246"
+        slides_url: "https://drive.google.com/open?id=1-tVd0sqxWpJ3aNuK1Gaf3gAZRvoM__aJ"
       - date: 2020-03-10
         presenter: "Ignacio Cigliutti"
         authors: "Grigsby"
         title: "Skill Heterogeneity and Aggregate Labor Market Dynamics"
+        paper_url: "https://home.uchicago.edu/jgrigsby/files/Research/JGrigsby_JMP.pdf"
       - date: 2020-03-17
         status: break
         note: "Spring break"
@@ -901,34 +1106,42 @@ semesters:
         presenter: "Andres Ghini"
         authors: "Boerma, McGrattan"
         title: "Quantifying Efficient Tax Reform"
+        paper_url: "http://users.cla.umn.edu/~erm/data/srxxx/efficient.pdf"
       - date: 2020-03-31
         presenter: "Teresa Steininger"
         authors: "Rotberg, Steinberg"
         title: "Tax the Wealthy? A Dynamic Model of Progressive Wealth Taxation"
+        paper_url: "https://www.joesteinberg.com/files/wealth_taxation_rs_22072019.pdf"
       - date: 2020-04-07
         presenter: "François Miguet"
         authors: "Walsh"
         title: "Firm Creation and Local Growth"
+        paper_url: "https://static1.squarespace.com/static/5b4b997eda02bc592b5131cd/t/5e0b6250a5b0832cb7765b1b/1577804383083/Walsh_JMP.pdf"
       - date: 2020-04-14
         presenter: "Guillaume Nevo"
         authors: "Bayer, Born, Luetticke"
         title: "Shocks, Frictions and Inequality in US Business Cycles"
+        paper_url: "https://site.stanford.edu/sites/g/files/sbiybj8706/f/6176-bbl_september.pdf"
       - date: 2020-04-21
         presenter: "Paolo Varraso and Melinda Suveg"
         authors: "Wolf"
         title: "The Missing Intercept: A Demand Equivalence Approach"
+        paper_url: "https://scholar.princeton.edu/sites/default/files/ckwolf/files/missing_intercept.pdf"
       - date: 2020-04-28
         presenter: "Felipe Camelo"
         authors: "Bilal, Engbom, Mongey, Violante"
         title: "Firm and Worker Dynamics in a Frictional Labor Market"
+        paper_url: "https://www.frbsf.org/economic-research/files/2018-11-30-Mongey-paper.pdf"
       - date: 2020-05-05
         presenter: "Anuraag Aekka"
         authors: "Bilal"
         title: "The Geography of Unemployment"
+        paper_url: "https://drive.google.com/file/d/1DK9aTmJMD-DykuAoNUtGcdI4LfEWmhoK/view"
       - date: 2020-05-12
         presenter: "Francesco Furno"
         authors: "Heathcote, Storesletten, Violante"
         title: "Optimal Tax Progressivity: An Analytical Framework"
+        paper_url: "https://www.nber.org/papers/w19899.pdf"
       - date: 2020-05-19
         presenter: "Peter Paz"
         own_work: true
@@ -946,46 +1159,63 @@ semesters:
         presenter: "Paolo Varraso"
         authors: "Berger, Bocola, Dovis"
         title: "Imperfect Risk-Sharing and the Business Cycle"
+        paper_url: "https://www.nber.org/papers/w26032.pdf"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdlYmxrM0plRTA0YnhTMjlKcHZXcUFpalhuNDFz"
       - date: 2019-09-18
         presenter: "Fernando Cirelli and Marcos Sonnervig"
         authors: "McKay, Wieland"
         title: "Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy"
+        paper_url: "https://www.nber.org/papers/w26175.pdf"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdlOGVVY0NKaEtFNjhiNEQzQld6dTROdEhCWERB"
       - date: 2019-09-25
         presenter: "Melanie Friedrichs and Matheus Silva"
         authors: "Moll, Rachel, Restrepo"
         title: "Uneven Growth: Automation's Impact on Income and Wealth Inequality"
+        paper_url: "https://benjaminmoll.com/wp-content/uploads/2019/07/UG.pdf"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdleTFjUzVHZktvdVVzTlBQN3VoLTg2NjJULWo4"
       - date: 2019-10-02
         presenter: "Ignacio Cigliutti and Federico Kochen"
         authors: "Fagereng, Holm, Moll, Natvik"
         title: "Saving Behavior Across the Wealth Distribution: The Importance of Capital Gains"
+        paper_url: "https://pdfs.semanticscholar.org/cfcb/6cbc95e05670ddf78c4787153852dccde64b.pdf?_ga=2.79483280.585912410.1569944395-169065740.1567622375"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdleFAwckNWUW1GNXJkU2hOU1E1UG1sWGVISl9r"
       - date: 2019-10-09
         presenter: "William Witheridge"
         authors: "Kekre, Lenel"
         title: "Redistribution, Risk Premia and the Macroeconomy"
+        slides_url: "https://drive.google.com/drive/u/0/folders/1NES9yazFsfO4Di67i8JJ5blzfD0doIyJ"
       - date: 2019-10-16
         presenter: "Teresa Steininger"
         authors: "Fukui, Nakamura, Steinsson"
         title: "Women, Wealth Effects and Slow Recoveries"
+        paper_url: "https://www.nber.org/papers/w25311.pdf"
       - date: 2019-10-23
         presenter: "Felipe Camelo"
         authors: "Auclert, Rognlie, Straub"
         title: "Inattention, Heterogeneity, Investment: Monetary Policy and Business Cycles Revisited"
+        paper_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdlTzBMc09Ub20xY19GQmxWdnZSU2ZuaUFCY3Zz"
+        slides_url: "https://drive.google.com/open?id=0B3Vx-ILeOQdlbUNCa19QZkl0VzlDZ1kyTmhkRVFnZHF3SlN3"
       - date: 2019-10-30
         presenter: "Andres Ghini"
         authors: "Andrade, Galí, Le Bihan, Matheron"
         title: "The Optimal Inflation Target and the Natural Rate of Interest"
+        paper_url: "https://www.nber.org/papers/w24328.pdf"
+        slides_url: "https://drive.google.com/open?id=1S2b5fMcrTeAI717WWnHC-Oc1dAPSpoO3"
       - date: 2019-11-06
         presenter: "Melinda Suveg"
         authors: "David, Schmid, Zeke"
         title: "Risk-Adjusted Capital Allocation and Misallocation"
+        paper_url: "https://faculty.fuqua.duke.edu/~ls111/misalloc_risk.pdf"
       - date: 2019-11-13
         presenter: "François Miguet and Anuraag Aekka"
         authors: "Aghion, Bergeaud, Boppart, Klenow, Li"
         title: "A Theory of Falling Growth and Rising Rents"
+        paper_url: "https://www.frbsf.org/economic-research/files/wp2019-11.pdf"
       - date: 2019-11-20
         presenter: "Guillaume Nevo"
         authors: "Jarosch, Nimczik, Sorkin"
         title: "Granular Search, Market Structure and Wages"
+        paper_url: "http://ftp.iza.org/dp12574.pdf"
       - date: 2019-11-27
         status: break
         note: "Thanksgiving break"
@@ -993,10 +1223,12 @@ semesters:
         presenter: "Aleksandra Alferova"
         authors: "Bianchi, Mondragon"
         title: "Monetary Independence and Rollover Crises"
+        paper_url: "https://www.nber.org/papers/w25340.pdf"
       - date: 2019-12-11
         presenter: "Yueling Huang"
         authors: "Comin, Danieli, Mestieri"
         title: "Demand-Driven Labor Market Polarization"
+        paper_url: "https://cepr.org/sites/default/files/cdm320.pdf"
       - date: 2019-12-18
         presenter: "Matias Covarrubias"
         own_work: true

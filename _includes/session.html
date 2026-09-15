@@ -23,10 +23,11 @@
       </h3>
       {%- if include.s.authors %}<p class="authors">{{ include.s.authors | escape }}</p>{% endif -%}
       <p class="who">Presented by <strong>{{ include.s.presenter | escape }}</strong>{% if include.s.own_work %}<span class="tag">own work</span>{% endif %}</p>
-      {%- if include.s.paper_url or include.s.slides %}
+      {%- if include.s.paper_url or include.s.slides or include.s.slides_url %}
       <div class="links">
         {%- if include.s.paper_url %}<a href="{{ include.s.paper_url }}">Paper&nbsp;&#8599;</a>{% endif -%}
-        {%- if include.s.slides %}<a href="{{ include.s.slides | relative_url }}">Slides&nbsp;(PDF)</a>{% endif -%}
+        {%- if include.s.slides %}<a href="{{ include.s.slides | relative_url }}">Slides&nbsp;(PDF)</a>
+        {%- elsif include.s.slides_url %}<a class="ext" href="{{ include.s.slides_url }}" title="Hosted on Google Drive; may require an NYU sign-in">Slides&nbsp;(Drive)&nbsp;&#8599;</a>{% endif -%}
       </div>
       {%- endif -%}
     {%- endif %}

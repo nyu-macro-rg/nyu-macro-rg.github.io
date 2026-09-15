@@ -7,8 +7,6 @@ nav: home
 {%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
 {%- assign rows = sem.sessions | sort: "date" -%}
 
-<p class="lede">{{ site.data.sessions.meta.blurb }}</p>
-
 {%- comment -%}
   Rendered server-side for the first upcoming session, then corrected on load by
   assets/next-session.js so it stays right between pushes. Every [data-field] is
@@ -29,9 +27,10 @@ nav: home
   <h2 class="title" data-field="title"{% unless nxt %} hidden{% endunless %}>{% if nxt %}{% if nxt.paper_url %}<a href="{{ nxt.paper_url }}">{{ nxt.title | escape }}</a>{% else %}{{ nxt.title | escape }}{% endif %}{% endif %}</h2>
   <p class="authors" data-field="authors"{% unless nxt.authors %} hidden{% endunless %}>{{ nxt.authors | escape }}</p>
   <p class="who" data-field="who"{% unless nxt %} hidden{% endunless %}>{% if nxt %}Presented by <strong>{{ nxt.presenter | escape }}</strong>{% if nxt.own_work %}<span class="tag">own work</span>{% endif %}{% endif %}</p>
-  <div class="links" data-field="links"{% unless nxt.paper_url or nxt.slides %} hidden{% endunless %}>
+  <div class="links" data-field="links"{% unless nxt.paper_url or nxt.slides or nxt.slides_url %} hidden{% endunless %}>
     {%- if nxt.paper_url %}<a href="{{ nxt.paper_url }}">Paper&nbsp;&#8599;</a>{% endif -%}
-    {%- if nxt.slides %}<a href="{{ nxt.slides | relative_url }}">Slides&nbsp;(PDF)</a>{% endif -%}
+    {%- if nxt.slides %}<a href="{{ nxt.slides | relative_url }}">Slides&nbsp;(PDF)</a>
+    {%- elsif nxt.slides_url %}<a class="ext" href="{{ nxt.slides_url }}">Slides&nbsp;(Drive)&nbsp;&#8599;</a>{% endif -%}
   </div>
 </section>
 
