@@ -300,7 +300,6 @@ semesters:
         presenter: "Sergio Florez-Orrego and Kerry Neitzel"
         authors: "Aguiar, Moll, Scheuer"
         title: "Putting the Finance into Public Finance: A Theory of Capital Gains Taxation"
-        paper_url: "https://benjaminmoll.com/wp-content/uploads/2024/06/PFPF.pdf"
         slides_url: "https://drive.google.com/file/d/1qMEdYai8lbj7R0HJp9gvjJyWLLXkDN06/view?usp=drive_link"
       - date: 2024-09-25
         presenter: "Hyein Han"
@@ -398,7 +397,6 @@ semesters:
         presenter: "Francisco Amor"
         authors: "Hack, Istrefi, Meier"
         title: "Identification of Systematic Monetary Policy"
-        paper_url: "https://matthias-meier-econ.github.io/files/HIM_SysMP.pdf"
         slides: "/files/slides/2024-spring/2024-02-20-amor.pdf"
       - date: 2024-02-27
         presenter: "Joon Kim"
@@ -538,7 +536,6 @@ semesters:
         presenter: "Janet Choi"
         authors: "Bahaj, Czech, Ding, Reis"
         title: "The Market for Inflation Risk"
-        paper_url: "https://deliverypdf.ssrn.com/delivery.php?ID=036104118122112090077076025123071091118034032080036086072001112090126069118102027095039031120001116015022110018078102117011028061050017010060098002096079122124126007088053079115113089096000014126118001071001126114003099105096119066096097066012006000009&EXT=pdf&INDEX=TRUE"
         slides: "/files/slides/2023-fall/2023-12-06-choi.pdf"
       - date: 2023-12-13
         presenter: "Doruk Gökalp"
@@ -598,7 +595,6 @@ semesters:
         presenter: "Audrey Azerot"
         authors: "Cerrato, Gitti"
         title: "Inflation Since Covid: Demand or Supply"
-        paper_url: "https://deliverypdf.ssrn.com/delivery.php?ID=740102120112122025001094000090085098016073055036039026094122100075068094031125020111057021116004010037021071029019000080105031041086005060042093101123000010122071089062011064009080031107068011124125097088086083121098067004030029071017090011085070077009&EXT=pdf&INDEX=TRUE"
         slides: "/files/slides/2023-spring/2023-04-05-azerot.pdf"
       - date: 2023-04-12
         status: break
@@ -699,13 +695,11 @@ semesters:
         presenter: "Man Chon (Tommy) Iao"
         authors: "Dávila, Schaab"
         title: "Optimal Monetary Policy with Heterogeneous Agents: A Timeless Ramsey Approach"
-        paper_url: "https://www.eduardodavila.com/research/davila_schaab_timeless_ramsey.pdf"
         slides: "/files/slides/2022-fall/2022-12-07-iao.pdf"
       - date: 2022-12-14
         presenter: "Audrey Azerot"
         authors: "Bilbiie, Primiceri, Tambalotti"
         title: "Inequality and Business Cycles"
-        paper_url: "https://faculty.wcas.northwestern.edu/gep575/Inequality_BC1-10.pdf"
         slides: "/files/slides/2022-fall/2022-12-14-azerot.pdf"
 
   # ==========================================================================
@@ -745,7 +739,6 @@ semesters:
         presenter: "Man Chon (Tommy) Iao"
         authors: "Weber et al."
         title: "Inclusive Monetary Policy: How Tight Labor Markets Facilitate Broad-Based Employment Growth"
-        paper_url: "https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/inclusive-monetary-policy.pdf"
         slides: "/files/slides/2022-spring/2022-03-08-iao.pdf"
       - date: 2022-03-15
         status: break
@@ -760,7 +753,6 @@ semesters:
         presenter: "Luca Gagliardone"
         authors: "Sastry"
         title: "Attention Cycles"
-        paper_url: "https://economics.mit.edu/files/20302"
         slides: "/files/slides/2022-spring/2022-03-29-gagliardone.pdf"
       - date: 2022-04-05
         presenter: "Diva Astinova"
@@ -778,7 +770,6 @@ semesters:
         presenter: "Brandon Kaplowitz"
         authors: "Angeletos, Sastry"
         title: "Managing Expectations: Instruments versus Targets"
-        paper_url: "https://economics.mit.edu/files/19331"
         slides: "/files/slides/2022-spring/2022-04-19-kaplowitz.pdf"
       - date: 2022-04-26
         presenter: "Fernando Cirelli"
@@ -794,7 +785,6 @@ semesters:
         presenter: "Shi Hu"
         authors: "Aguiar, Amador, Arellano"
         title: "Micro Risks and Pareto Improving Policies"
-        paper_url: "https://78462f86-a-1555c7db-s-sites.googlegroups.com/a/cristinaarellano.com/www/aaa_pareto.pdf?attachauth=ANoY7cqMx_fVxoFy8AT5CoFo53avQ3U9nUB8aqDn-MeEuxM2qc8Nn0mhlN-yuAmXEf-xKxz2_2cK_cBwEEHLjdQ-JBsLY7PY_oQVJNBjX1Wsth7Hac_LnV3PFysjAgQ3KhmxGjgVGGwx-QVEUh-ZoTik7FHuksEdiei-b_dUWYBZdfcJiWvDgnfvlSsuolfZMQcu918dFlDOWwiLSPqm4vO7O3bBc32u1w%3D%3D&attredirects=0"
 
   # ==========================================================================
   - id: 2021-fall
@@ -830,13 +820,11 @@ semesters:
         presenter: "Felipe Camêlo"
         authors: "Hubmer, Restrepo"
         title: "Not a Typical Firm: The Joint Dynamics of Firms, Labor Shares, and Capital-Labor Substitution"
-        paper_url: "https://drive.google.com/file/d/1DtfaJ1ChyL4LXXXzQ1OqqDCW8xbqYS8x/view"
         slides: "/files/slides/2021-fall/2021-10-13-camelo.pdf"
       - date: 2021-10-20
         presenter: "Anuraag Aekka"
         authors: "Angeletos, Huo"
         title: "Myopia and Anchoring"
-        paper_url: "https://economics.mit.edu/files/22015"
         slides: "/files/slides/2021-fall/2021-10-20-aekka.pdf"
       - date: 2021-10-27
         presenter: "Andres Ghini"
@@ -858,7 +846,6 @@ semesters:
         presenter: "Masayuki Okada"
         authors: "Bayer, Born, Luetticke"
         title: "The Liquidity Channel of Fiscal Policy"
-        paper_url: "https://www.benjaminborn.de/files/BBL_Fiscal_Liquidity_Sept_2021.pdf"
         slides: "/files/slides/2021-fall/2021-11-17-okada.pdf"
       - date: 2021-11-24
         presenter: "Cesar Zambrano"
@@ -929,7 +916,6 @@ semesters:
         presenter: "Diva Astinova and Teresa Steininger"
         authors: "Bardóczy"
         title: "Spousal Insurance and the Amplification of Business Cycles"
-        paper_url: "https://www.bencebardoczy.com/publication/bardoczy_jmp/bardoczy_jmp.pdf"
         slides_url: "https://drive.google.com/file/d/1JVXhC5RC-oquLWEXmQFRuO0cSbE6Bc-B/view?usp=sharing"
       - date: 2021-03-30
         presenter: "Chitra Marti"
@@ -1035,7 +1021,6 @@ semesters:
         presenter: "Qinzhou Gong"
         authors: "Boerma, McGrattan"
         title: "Quantifying Efficient Tax Reform"
-        paper_url: "http://users.cla.umn.edu/~erm/data/sed2020/ucb.pdf"
         slides_url: "https://drive.google.com/file/d/1Q-vRDZoKaRiM0C7xL6M7sQ1mpcyke_Zk/view?usp=sharing"
       - date: 2020-11-25
         presenter: "Do Lee"
@@ -1092,13 +1077,11 @@ semesters:
         presenter: "William Witheridge"
         authors: "Lian"
         title: "Consumption with Imperfect Perception of Wealth"
-        paper_url: "https://economics.mit.edu/files/18246"
         slides_url: "https://drive.google.com/open?id=1-tVd0sqxWpJ3aNuK1Gaf3gAZRvoM__aJ"
       - date: 2020-03-10
         presenter: "Ignacio Cigliutti"
         authors: "Grigsby"
         title: "Skill Heterogeneity and Aggregate Labor Market Dynamics"
-        paper_url: "https://home.uchicago.edu/jgrigsby/files/Research/JGrigsby_JMP.pdf"
       - date: 2020-03-17
         status: break
         note: "Spring break"
@@ -1111,7 +1094,6 @@ semesters:
         presenter: "Teresa Steininger"
         authors: "Rotberg, Steinberg"
         title: "Tax the Wealthy? A Dynamic Model of Progressive Wealth Taxation"
-        paper_url: "https://www.joesteinberg.com/files/wealth_taxation_rs_22072019.pdf"
       - date: 2020-04-07
         presenter: "François Miguet"
         authors: "Walsh"
@@ -1121,7 +1103,6 @@ semesters:
         presenter: "Guillaume Nevo"
         authors: "Bayer, Born, Luetticke"
         title: "Shocks, Frictions and Inequality in US Business Cycles"
-        paper_url: "https://site.stanford.edu/sites/g/files/sbiybj8706/f/6176-bbl_september.pdf"
       - date: 2020-04-21
         presenter: "Paolo Varraso and Melinda Suveg"
         authors: "Wolf"

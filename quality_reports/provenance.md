@@ -216,3 +216,37 @@ and can be neither confirmed nor contradicted this way. They rest on the positio
 decks now hosted here were already published on the group's own public website; this moves
 them rather than publishing them anew. Any presenter who wants a deck taken down should be
 able to ask and have it removed.
+
+
+## Paper links that had rotted, and were removed (checked 2026-09-15)
+
+Every link recovered from the old site was tested. Eighteen returned 403 to an automated
+request but load normally in a browser (Harvard, NBER, CEPR, Annual Reviews and an S3 bucket
+all block bots); those were kept. The 19 below were genuinely gone: authors moved
+files, MIT renumbered `economics.mit.edu/files/NNNNN`, and SSRN `delivery.php` URLs are
+session-scoped and expire. They were removed so the site ships no link it knows is broken.
+The sessions themselves remain, with author, title and presenter.
+
+The original URLs are kept here so anyone can chase a replacement.
+
+| Date | Semester | Paper | Dead URL |
+|---|---|---|---|
+| 2020-03-03 | Spring 2020 | Lian, *Consumption with Imperfect Perception of Wealth* | `https://economics.mit.edu/files/18246` |
+| 2020-03-10 | Spring 2020 | Grigsby, *Skill Heterogeneity and Aggregate Labor Market Dynamics* | `https://home.uchicago.edu/jgrigsby/files/Research/JGrigsby_JMP.pdf` |
+| 2020-03-31 | Spring 2020 | Rotberg, Steinberg, *Tax the Wealthy? A Dynamic Model of Progressive Wealth Taxation* | `https://www.joesteinberg.com/files/wealth_taxation_rs_22072019.pdf` |
+| 2020-04-14 | Spring 2020 | Bayer, Born, Luetticke, *Shocks, Frictions and Inequality in US Business Cycles* | `https://site.stanford.edu/sites/g/files/sbiybj8706/f/6176-bbl_september.pdf` |
+| 2020-11-18 | Fall 2020 | Boerma, McGrattan, *Quantifying Efficient Tax Reform* | `http://users.cla.umn.edu/~erm/data/sed2020/ucb.pdf` |
+| 2021-03-23 | Spring 2021 | Bardóczy, *Spousal Insurance and the Amplification of Business Cycles* | `https://www.bencebardoczy.com/publication/bardoczy_jmp/bardoczy_jmp.pdf` |
+| 2021-10-13 | Fall 2021 | Hubmer, Restrepo, *Not a Typical Firm: The Joint Dynamics of Firms, Labor Shares, and Capital-Labor Substitution* | `https://drive.google.com/file/d/1DtfaJ1ChyL4LXXXzQ1OqqDCW8xbqYS8x/view` |
+| 2021-10-20 | Fall 2021 | Angeletos, Huo, *Myopia and Anchoring* | `https://economics.mit.edu/files/22015` |
+| 2021-11-17 | Fall 2021 | Bayer, Born, Luetticke, *The Liquidity Channel of Fiscal Policy* | `https://www.benjaminborn.de/files/BBL_Fiscal_Liquidity_Sept_2021.pdf` |
+| 2022-03-08 | Spring 2022 | Weber et al., *Inclusive Monetary Policy: How Tight Labor Markets Facilitate Broad-Based Employment Growth* | `https://faculty.chicagobooth.edu/-/media/faculty/michael-weber/inclusive-monetary-policy.pdf` |
+| 2022-03-29 | Spring 2022 | Sastry, *Attention Cycles* | `https://economics.mit.edu/files/20302` |
+| 2022-04-19 | Spring 2022 | Angeletos, Sastry, *Managing Expectations: Instruments versus Targets* | `https://economics.mit.edu/files/19331` |
+| 2022-05-10 | Spring 2022 | Aguiar, Amador, Arellano, *Micro Risks and Pareto Improving Policies* | `https://78462f86-a-1555c7db-s-sites.googlegroups.com/a/cristinaarellano.com/www/aaa_pareto.pdf?attachauth=ANoY7cqMx_fVxoFy8AT5CoFo53avQ3U9nUB8aqDn-MeEuxM2qc8Nn0mhlN-yuAmXEf-xKxz2_2cK_cBwEEHLjdQ-JBsLY7PY_oQVJNBjX1Wsth7Hac_LnV3PFysjAgQ3KhmxGjgVGGwx-QVEUh-ZoTik7FHuksEdiei-b_dUWYBZdfcJiWvDgnfvlSsuolfZMQcu918dFlDOWwiLSPqm4vO7O3bBc32u1w%3D%3D&attredirects=0` |
+| 2022-12-07 | Fall 2022 | Dávila, Schaab, *Optimal Monetary Policy with Heterogeneous Agents: A Timeless Ramsey Approach* | `https://www.eduardodavila.com/research/davila_schaab_timeless_ramsey.pdf` |
+| 2022-12-14 | Fall 2022 | Bilbiie, Primiceri, Tambalotti, *Inequality and Business Cycles* | `https://faculty.wcas.northwestern.edu/gep575/Inequality_BC1-10.pdf` |
+| 2023-04-05 | Spring 2023 | Cerrato, Gitti, *Inflation Since Covid: Demand or Supply* | `https://deliverypdf.ssrn.com/delivery.php?ID=740102120112122025001094000090085098016073055036039026094122100075068094031125020111057021116004010037021071029019000080105031041086005060042093101123000010122071089062011064009080031107068011124125097088086083121098067004030029071017090011085070077009&EXT=pdf&INDEX=TRUE` |
+| 2023-12-06 | Fall 2023 | Bahaj, Czech, Ding, Reis, *The Market for Inflation Risk* | `https://deliverypdf.ssrn.com/delivery.php?ID=036104118122112090077076025123071091118034032080036086072001112090126069118102027095039031120001116015022110018078102117011028061050017010060098002096079122124126007088053079115113089096000014126118001071001126114003099105096119066096097066012006000009&EXT=pdf&INDEX=TRUE` |
+| 2024-02-20 | Spring 2024 | Hack, Istrefi, Meier, *Identification of Systematic Monetary Policy* | `https://matthias-meier-econ.github.io/files/HIM_SysMP.pdf` |
+| 2024-09-18 | Fall 2024 | Aguiar, Moll, Scheuer, *Putting the Finance into Public Finance: A Theory of Capital Gains Taxation* | `https://benjaminmoll.com/wp-content/uploads/2024/06/PFPF.pdf` |
