@@ -60,30 +60,60 @@ semesters:
         title: "Borrowing Constraints, Markups, and Misallocation"
         paper_url: "https://lianchen.github.io/website/draft_markup.pdf"
       - date: 2026-09-23
-        status: tbd
+        presenter: "Edvin Ahlander"
+        authors: "Guerreiro, Hazell, Känzig, Manuel"
+        title: "The Macroeconomic Effect of Stimulus Checks"
+        paper_url: "https://jguerreiro.com/files/GHKM_VeteranTransfers.pdf"
       - date: 2026-09-30
-        status: tbd
+        presenter: "Kanta Ogawa"
+        authors: "Aguilar"
+        title: "Credit Constraints, Learning, and Spatial Misallocation"
+        paper_url: "https://www.elena-aguilar.net/files/papers/aguilar_jmp.pdf"
       - date: 2026-10-07
-        status: tbd
+        presenter: "Joon Sup Park"
+        authors: "Reichardt, Reis"
+        title: "Why Do Firms Prefer the US over the EU?"
+        paper_url: "https://hugoreichardt.com/pdf/firmsuseu.pdf"
       - date: 2026-10-14
-        status: tbd
+        presenter: "Alfonso Calvanese"
+        authors: "Bocola, Bornstein, Malgieri, Puglisi"
+        title: "Bank Market Power"
+        paper_url: "https://lbocola.people.stanford.edu/pdf/Bank_Market_Power.pdf"
       - date: 2026-10-21
-        status: tbd
+        presenter: "Lennard Welslau"
+        authors: "Guo, Ottonello, Winberry, Whited"
+        title: "Firm Heterogeneity and Adverse Selection in External Finance"
+        paper_url: "https://www.nber.org/papers/w34019"
       - date: 2026-10-28
-        status: tbd
+        presenter: "Giacomo Sani"
+        authors: "Auclert, Rognlie, Straub"
+        title: "The Macroeconomics of Tariff Shocks"
+        paper_url: "https://www.nber.org/papers/w33726"
       - date: 2026-11-04
-        status: tbd
+        presenter: "Ariana Gamero"
+        authors: "Winberry, Auclert, Rognlie, Straub"
+        title: "New Keynesian Economics with Household and Firm Heterogeneity"
+        paper_url: "https://www.nber.org/papers/w34611"
       - date: 2026-11-11
-        status: tbd
+        presenter: "Ali Bagherzadeh"
+        authors: "Hsieh, Klenow, Kyei-Manu, Rockall"
+        title: "Misallocation versus Inequality"
+        paper_url: "http://klenow.com/Misallocation_versus_Inequality.pdf"
       - date: 2026-11-18
         status: tbd
       - date: 2026-11-25
         status: break
         note: "Thanksgiving break"
       - date: 2026-12-02
-        status: tbd
+        presenter: "Ben Lahey"
+        authors: "Kikuchi, O'Connor"
+        title: "The Granular Origins of Agglomeration"
+        paper_url: "https://www.shinnosuke-kikuchi.com/files/research/KIKUCHI-OCONNOR-granular-spatial.pdf"
       - date: 2026-12-09
-        status: tbd
+        presenter: "Ignacio Lunghi"
+        authors: "Braxton, Herkenhoff, Huang, Nattinger, Rothbaum, Schmidt"
+        title: "Rising Income Risk at the Top"
+        paper_url: "https://www.nber.org/papers/w35664"
 
   # ==========================================================================
   - id: 2026-spring

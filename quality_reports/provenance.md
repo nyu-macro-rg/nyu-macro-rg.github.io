@@ -273,3 +273,19 @@ and from who presented those years, but neither is confirmed: there is no mail f
 address in the organizer's archive, and putting the wrong person's name against two years of
 someone else's work is worse than leaving it blank. Both addresses are still on the current
 mailing list, so the answer is one question away.
+
+## Fall 2026 schedule
+
+Source: Ariana Gamero, "Macro Reading Group – Preliminary setup", 2026-09-15, forwarded to
+Rafael the same evening with "So you can put it on the website!". Ten sessions, Sep 23 through
+Dec 9. The Sep 16 opener came from her separate announcement of 2026-09-14.
+
+She describes it as **preliminary**, and Fall 2025 and Spring 2026 both drifted from their
+opening plan in three places between them. Treat these as scheduled, not as delivered, and
+correct from the weekly announcement emails if a session changes.
+
+Paper links were resolved and checked (all 10 return 200). Author order follows her email.
+
+**Nov 18 is left as "To be announced"**, not marked a break. Her schedule simply has no entry
+for it: everyone who signed up got a slot, and that Wednesday went unclaimed. Nov 25 stays a
+Thanksgiving break (Thanksgiving 2026 falls on Nov 26).
