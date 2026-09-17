@@ -1,0 +1,39 @@
+---
+layout: default
+nav: reading
+title: Reading list
+permalink: /reading-list/
+---
+{%- include current.html -%}
+{%- assign papers = site.data.reading_list.papers -%}
+{%- assign shown = papers | size -%}
+{%- assign done = 0 -%}
+{%- for p in papers %}{% if p.presented %}{% assign done = done | plus: 1 %}{% endif %}{% endfor -%}
+
+<p class="lede">Every paper put forward for the reading group, {{ shown }} in all. Most were
+never presented: the group gets through roughly a dozen a term, so this is the wider set the
+group considered worth reading. {{ done }} of them have been presented, and those link to the
+session.</p>
+
+<p class="semester-meta">Drawn from the reading lists circulated for Fall&nbsp;2025,
+Spring&nbsp;2026 and Fall&nbsp;2026. Suggestions for a given term are welcome:
+email <a href="mailto:{{ site.data.sessions.meta.organizer.email }}">{{ site.data.sessions.meta.organizer.name }}</a>.</p>
+
+<ol class="readinglist">
+{%- for p in papers %}
+  <li{% if p.presented %} class="was-presented"{% endif %}>
+    <p class="rl-title">{{ p.title | escape }}</p>
+    <p class="rl-authors">{{ p.authors | escape }}</p>
+    <p class="rl-meta">
+      <span class="rl-sems">{{ p.semesters | join: " · " }}</span>
+      {%- if p.presented %}
+      {%- if p.presented.sem_id == cur.id %}
+        <a class="rl-presented" href="{{ '/' | relative_url }}">Presented {{ p.presented.date | date: "%-d %b %Y" }} by {{ p.presented.presenter | escape }}</a>
+      {%- else %}
+        <a class="rl-presented" href="{{ '/archive/' | relative_url }}#{{ p.presented.sem_id }}">Presented {{ p.presented.date | date: "%-d %b %Y" }} by {{ p.presented.presenter | escape }}</a>
+      {%- endif %}
+      {%- endif %}
+    </p>
+  </li>
+{%- endfor %}
+</ol>

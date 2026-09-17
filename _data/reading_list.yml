@@ -1,0 +1,393 @@
+# Generated from the semester reading lists. See quality_reports/provenance.md.
+# Sources: Fall 2025 and Spring 2026 .docx; Fall 2026 PDF from the sign-up email.
+papers:
+  - authors: "Adão, Fernandes, Hsieh, Quintero"
+    title: "Trade Shocks in Distorted Economies: Evidence from Firm-Level Import Data"
+    semesters: ["Fall 2026", "Spring 2026", "Fall 2025"]
+  - authors: "Adhami"
+    title: "Quantifying Knowledge Spillovers Using Firm and Product Dynamics"
+    semesters: ["Spring 2026"]
+  - authors: "Aghion, Boppart, Peters, Schwartzman, Zilibotti"
+    title: "A Theory of Endogenous Degrowth and Environmental Sustainability"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-12-03
+      presenter: "Olalekan Bello"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Aguiar, Itskhoki, Mukhin"
+    title: "How Good Is International Risk Sharing? Stepping Outside the Shadow of The Welfare Theorems"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Aguilar"
+    title: "Credit Constraints, Learning, and Spatial Misallocation"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-09-30
+      presenter: "Kanta Ogawa"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Alessandria, Ding, Khan, Mix"
+    title: "The Tariff Tax Cut: Tariffs as Revenue"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Amador, Bianchi"
+    title: "Bank Runs, Fragility and Regulation"
+    semesters: ["Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-02-25
+      presenter: "Itamar Bellaïche"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Angeletos, Lian, Wolf"
+    title: "Fiscal Inaction as Monetary Support"
+    semesters: ["Spring 2026"]
+  - authors: "Auclert, Malmberg, Rognlie, Straub"
+    title: "The Race Between Asset Supply and Asset Demand"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Auclert, Rognlie, Straub"
+    title: "The Macroeconomics of Tariff Shocks"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-10-28
+      presenter: "Giacomo Sani"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Bai, Lu, Tian, Wang"
+    title: "When Do Financial Frictions Matter for Misallocation?"
+    semesters: ["Fall 2026"]
+  - authors: "Baqaee, Burstein"
+    title: "Aggregate Efficiency with Heterogeneous Agents"
+    semesters: ["Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-04-15
+      presenter: "Ali Bagherzadeh"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Bardóczy, Bornstein, Salgado"
+    title: "Monopsony Power and the Transmission of Monetary Policy"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Beaudry, Collard, Fève, Guay, Portier"
+    title: "Exploiting Dynamic Identification in VARs"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-10-01
+      presenter: "Rafael Lincoln"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Bhandari, Jugulum, Veldkamp, Venkateswaran"
+    title: "Firm Specialization vs. Diversification"
+    semesters: ["Fall 2026"]
+  - authors: "Bhandari, Martellini, McGrattan"
+    title: "Capital Reallocation and Private Firm Dynamics"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-11-12
+      presenter: "Sam Jordan-Wood"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Bianchi, Coulibaly"
+    title: "The Optimal Monetary Policy Response to Tariffs"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Bianchi, Kaplan"
+    title: "How Small Is Small? Nonlinearities in Heterogeneous-Agent Models"
+    semesters: ["Fall 2026"]
+  - authors: "Bianchi, McKay, Mehrotra"
+    title: "How Should Monetary Policy Respond to Housing Inflation?"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-09-17
+      presenter: "Mary Zhang"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Bilbiie, Galaasen, Gürkaynak, Mæhlum, Molnar"
+    title: "HANKSSON"
+    semesters: ["Fall 2026", "Spring 2026", "Fall 2025"]
+  - authors: "Bils, Kaymak, Wu"
+    title: "Robinson Meets Roy: Monopsony Power and Comparative Advantage"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Birinci, Faria-e-Castro, See"
+    title: "Expectations on Wealth Returns: Implications for Labor Supply During the Retirement Boom"
+    semesters: ["Fall 2026"]
+  - authors: "Bocola, Bornstein, Malgieri, Puglisi"
+    title: "Bank Market Power"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-10-14
+      presenter: "Alfonso Calvanese"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Boppart, Klenow, Laski, Li"
+    title: "Idea Rents and Firm Growth"
+    semesters: ["Spring 2026"]
+    presented:
+      date: 2026-04-08
+      presenter: "Giacomo Chignoli"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Braxton, Chikhale, Herkenhoff, Phillips"
+    title: "Intergenerational Mobility and Credit"
+    semesters: ["Spring 2026"]
+  - authors: "Braxton, Herkenhoff, Huang, Nattinger, Rothbaum, Schmidt"
+    title: "Rising Income Risk at the Top"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-12-09
+      presenter: "Ignacio Lunghi"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Cavenaile, Gaetani, Roldan-Blanco, Schmitz"
+    title: "Industry Life Cycles in General Equilibrium"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Chen, Gao, Hazell, Lei, Lian"
+    title: "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach"
+    semesters: ["Fall 2026"]
+  - authors: "Cieslak, Khorrami"
+    title: "Monetary Shocks and Long-Run Neutrality in Asset Pricing"
+    semesters: ["Fall 2026"]
+  - authors: "Cioffi, Hurtado, Nuño"
+    title: "Asset Pricing with Heterogeneous Agents under Limited Information"
+    semesters: ["Fall 2026"]
+  - authors: "Couturier"
+    title: "The Sentiment Channel of Fiscal Policy"
+    semesters: ["Spring 2026"]
+    presented:
+      date: 2026-02-11
+      presenter: "Rafael Lincoln"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Dao, Gourinchas, Itskhoki"
+    title: "Breaking Parity: Equilibrium Exchange Rates and Currency Premia"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-10-22
+      presenter: "Robin Li"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "De Souza"
+    title: "Artificial Intelligence in the Office and the Factory: Evidence from Administrative Software Registry Data"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "den Besten, Barnichon, Känzig, Singh"
+    title: "The Macroeconomic Effects of Tariffs: Insights from 180 Years of U.S. Trade Policy"
+    semesters: ["Fall 2026"]
+  - authors: "Donaldson"
+    title: "Cross-sectional Identification with Heterogeneous Exposure to General Equilibrium Effects"
+    semesters: ["Spring 2026"]
+  - authors: "Dyrda, Hong, Sajid, Steinberg"
+    title: "The Ripple Effects of Global Tax Reform on the U.S. Economy"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Eichenbaum, Guerrieri, Obradovic"
+    title: "Ricardian Non-Equivalence"
+    semesters: ["Spring 2026", "Fall 2025"]
+  - authors: "Elenev, Landvoigt, Van Nieuwerburgh"
+    title: "The Austerity Threshold"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-10-15
+      presenter: "Thomás Gleizer"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Engbom, Malmberg, Porzio, Rossi, Schoellman"
+    title: "Economic Development According to Chandler"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-10-08
+      presenter: "Joon Sup Park"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Faberman, Mueller, Şahin"
+    title: "Job Search, Job Amenities and the Gender Pay Gap"
+    semesters: ["Fall 2026"]
+  - authors: "Faia, Lochner, Schoefer"
+    title: "Monopsony, Markdowns, and Minimum Wages"
+    semesters: ["Spring 2026"]
+  - authors: "Fan"
+    title: "The labor Market Incidence of New Technologies"
+    semesters: ["Spring 2026"]
+    presented:
+      date: 2026-03-25
+      presenter: "Mahdi Ebsim"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Faria-e-Castro, Kozlowski, Majerovitz"
+    title: "The Cost of Capital and Misallocation in the United States"
+    semesters: ["Fall 2026"]
+  - authors: "Ferreira, Haber, Lee"
+    title: "The Inefficient Corporate Cash Buffer and the Nonlinear Business Cycle"
+    semesters: ["Spring 2026"]
+  - authors: "Fonseca, Liu, Mabille"
+    title: "Unlocking Mortgage Lock-In: Evidence from a Spatial Housing Ladder Model"
+    semesters: ["Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-04-01
+      presenter: "Sam Jordan-Wood"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Fontanier, Simsek"
+    title: "Exchange Rate Stabilization and Monetary Transmission"
+    semesters: ["Fall 2026"]
+  - authors: "Foulis, Hazell, Mian, Tracey"
+    title: "How Do Interest Rates Affect Consumption? Household Debt and the Role of Asset Prices"
+    semesters: ["Fall 2026"]
+  - authors: "Freund, Mann"
+    title: "Job Transformation, Specialization, and the Labor Market Effects of AI"
+    semesters: ["Fall 2026", "Spring 2026", "Fall 2025"]
+  - authors: "Fulford, Low"
+    title: "Expense Shocks Matter"
+    semesters: ["Fall 2026"]
+  - authors: "Ghassibe, Nakov"
+    title: "Business Cycles with Pricing Cascades"
+    semesters: ["Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-02-18
+      presenter: "Isaac Leeson"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Grigsby, Zorzi"
+    title: "How Do Rapid Sectoral Shifts Affect Workers? Theory and an Application to the Climate Transition"
+    semesters: ["Fall 2026", "Spring 2026", "Fall 2025"]
+  - authors: "Guerreiro, Hazell, Känzig, Manuel"
+    title: "The Macroeconomic Effect of Stimulus Checks: Evidence from Postwar Veterans’ Payments"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-09-23
+      presenter: "Edvin Ahlander"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Guntin, Kochen"
+    title: "The Origins of Top Firms"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-10-29
+      presenter: "Giacomo Chignoli and Giovanni Brocca"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Guo, Ottonello, Winberry, Whited"
+    title: "Firm Heterogeneity and Adverse Selection in External Finance: Micro Evidence and Macro Implications"
+    semesters: ["Fall 2026", "Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-10-21
+      presenter: "Lennard Welslau"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Gurkova"
+    title: "Human Capital Accumulation and the Long-Term Effects of Temporary Sectoral Shocks"
+    semesters: ["Fall 2026"]
+  - authors: "Hampole, Papanikolaou, Schmidt, Seegmiller"
+    title: "Artificial Intelligence and the Labor Market"
+    semesters: ["Spring 2026", "Fall 2025"]
+    presented:
+      date: 2026-03-04
+      presenter: "Thomás Gleizer"
+      semester: "Spring 2026"
+      sem_id: "2026-spring"
+  - authors: "Holden"
+    title: "Rationing Under Sticky Prices"
+    semesters: ["Spring 2026"]
+  - authors: "Hsieh, Klenow, Kyei-Manu, Rockall"
+    title: "Misallocation versus Inequality"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-11-11
+      presenter: "Ali Bagherzadeh"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Hubmer, Nord"
+    title: "Investment in Demand and Dynamic Competition for Customers"
+    semesters: ["Fall 2026", "Spring 2026"]
+  - authors: "Jarosch, Pilossoph, Swaminathan"
+    title: "Should Friday be the New Saturday? Hours Worked and Hours Wanted"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-11-05
+      presenter: "Kerry Neitzel"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Jones"
+    title: "How Much Should We Spend to Reduce AI’s Existential Risk?"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-12-10
+      presenter: "Isaac Leeson"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Jones, Tonetti"
+    title: "Past Automation and Future A.I.: How Weak Links Tame the Growth Explosion"
+    semesters: ["Fall 2026"]
+  - authors: "Kaplan, Miyahara"
+    title: "How Does Monetary and Fiscal Policy Affect the Economy in the Face of Large Shocks?"
+    semesters: ["Fall 2026"]
+  - authors: "Kekre, Lenel"
+    title: "A Model of U.S. Monetary Policy and the Global Financial Cycle"
+    semesters: ["Fall 2026"]
+  - authors: "Kikuchi, O’Connor"
+    title: "Granular Origins of Agglomeration"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-12-02
+      presenter: "Ben Lahey"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Kleinman, Yerushalmi"
+    title: "A Quantitative Theory of Trade in Services"
+    semesters: ["Fall 2026"]
+  - authors: "Kopytov, Taschereau-Dumouchel, Xu"
+    title: "Endogenous Returns to Scale"
+    semesters: ["Fall 2026"]
+  - authors: "Lee"
+    title: "Global Nonlinear Solutions in the Sequence Space and the Generalized Transition Function"
+    semesters: ["Spring 2026"]
+  - authors: "Li, Lian, Ma, Martell"
+    title: "Borrowing Constraints, Markups, and Misallocation"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-09-16
+      presenter: "Giacomo Chignoli"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Lindenlaub, Oh, Rodríguez, Veldkamp"
+    title: "Beyond Exposure: Predicting AI Adoption Based on Comparative Advantage"
+    semesters: ["Fall 2026"]
+  - authors: "Manisheva, Mestieri, Schauer"
+    title: "End of Apartheid, Not of Inequality: The Slow Transition in a Segregated Economy"
+    semesters: ["Fall 2025"]
+  - authors: "Meeuwis, Papanikolaou, Schmidt"
+    title: "Risk Premia, Firm Insurance, and Endogenous Labor Income Risk"
+    semesters: ["Fall 2026"]
+  - authors: "Nuno, Renner, Scheidegger"
+    title: "Monetary Policy with Supply Regimes"
+    semesters: ["Spring 2026"]
+  - authors: "Pearce, Wu"
+    title: "Market Concentration and Aggregate Productivity: The Role of Demand"
+    semesters: ["Fall 2026"]
+  - authors: "Peterman, Sager"
+    title: "Public Debt and Interest Rates"
+    semesters: ["Fall 2026"]
+  - authors: "Reichardt, Reis"
+    title: "Why Do Firms Prefer the US over the EU?"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-10-07
+      presenter: "Joon Sup Park"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"
+  - authors: "Sangani"
+    title: "Complete Pass-Through in Levels"
+    semesters: ["Spring 2026"]
+  - authors: "Villa"
+    title: "Macro Shocks and Firm Dynamics with Oligopolistic Financial Intermediaries"
+    semesters: ["Fall 2026"]
+  - authors: "Werning, Lorenzoni, Guerrieri"
+    title: "Tariffs and Cost-Push Shocks: Implications for Optimal Monetary Policy"
+    semesters: ["Fall 2025"]
+    presented:
+      date: 2025-11-19
+      presenter: "Francisco Terfi"
+      semester: "Fall 2025"
+      sem_id: "2025-fall"
+  - authors: "Winberry, Auclert, Rognlie, Straub"
+    title: "New Keynesian Economics with Household and Firm Heterogeneity"
+    semesters: ["Fall 2026"]
+    presented:
+      date: 2026-11-04
+      presenter: "Ariana Gamero"
+      semester: "Fall 2026"
+      sem_id: "2026-fall"

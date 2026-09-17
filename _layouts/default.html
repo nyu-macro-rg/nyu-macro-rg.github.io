@@ -21,6 +21,7 @@
     <nav>
       <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Schedule</a>
       <a href="{{ '/archive/' | relative_url }}"{% if page.nav == 'archive' %} aria-current="page"{% endif %}>Past sessions</a>
+      <a href="{{ '/reading-list/' | relative_url }}"{% if page.nav == 'reading' %} aria-current="page"{% endif %}>Reading list</a>
       <a href="{{ '/resources/' | relative_url }}"{% if page.nav == 'resources' %} aria-current="page"{% endif %}>For presenters</a>
     </nav>
   </div>

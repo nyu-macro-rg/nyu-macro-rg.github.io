@@ -111,6 +111,20 @@ Then check the front page and Past sessions, per the warning above.
 Use `status: break` for a planned non-meeting and `status: cancelled` for one called off.
 The `note` is optional.
 
+### Add a term's reading list
+
+`_data/reading_list.yml` holds every paper ever put forward, one entry per paper:
+
+```yaml
+  - authors: "Smith, Wang"
+    title: "A Paper About Something"
+    semesters: ["Fall 2027"]
+```
+
+When you circulate a new list, add any paper that is not already there, and add your term to
+the `semesters:` of the ones that are. If a listed paper then gets presented, nothing more is
+needed by hand: the page cross-references the schedule and links it automatically.
+
 ### Change the organizer, room, or time
 
 Top of `_data/sessions.yml`, under `meta:` (room, organizer) or on the semester (time).
@@ -146,7 +160,8 @@ every year, and every moving part is something that can break while nobody is wa
 
 | Path | What it is |
 |---|---|
-| `_data/sessions.yml` | All the content. The only file most people ever touch. |
+| `_data/sessions.yml` | The schedule. The only file most people ever touch. |
+| `_data/reading_list.yml` | Papers suggested each term, generated from the semester reading lists. |
 | `_layouts/default.html` | Page shell, header, nav, footer. |
 | `_includes/session.html` | Renders one row of the schedule. |
 | `_includes/semester.html` | Renders a semester heading plus its sessions, sorted by date. |
@@ -154,6 +169,7 @@ every year, and every moving part is something that can break while nobody is wa
 | `404.html` | Shown for a mistyped URL. |
 | `index.html` | Current semester and the "next session" panel. |
 | `archive.html` | Every past semester. |
+| `reading-list.html` | Every suggested paper, with links to the ones that were presented. |
 | `resources.html` | Guidance for presenters. |
 | `assets/style.css` | All styling. |
 | `assets/next-session.js` | ~70 lines. Recomputes which session is next using the visitor's clock, so the front page stays correct even if nobody pushes for months. |

@@ -289,3 +289,49 @@ Paper links were resolved and checked (all 10 return 200). Author order follows 
 **Nov 18 is left as "To be announced"**, not marked a break. Her schedule simply has no entry
 for it: everyone who signed up got a slot, and that Wednesday went unclaimed. Nov 25 stays a
 Thanksgiving break (Thanksgiving 2026 falls on Nov 26).
+
+## The reading list page
+
+Added at Corina Boar's request (2026-09-17): publish the full set of suggested papers, behind
+a button, for two reasons she gave. Students browsing for something to read, and young faculty
+whose work appears on the list being able to point to that in a tenure package. The second
+reason is why the page is careful about attribution.
+
+**Sources.** Three lists, all circulated to the group:
+
+| List | Source | Entries |
+|---|---|---|
+| Fall 2025 | `Fall 2025/Reading List Fall 2025.docx` | 32 |
+| Spring 2026 | `Spring 2026/Reading List Spring 2026.docx` | 34 |
+| Fall 2026 | PDF linked from Ariana's sign-up mail of 2026-09-11 | 40 |
+
+Corina asked not to go further back, so Spring 2025 and earlier are not included. The Spring
+2026 file's own heading reads "Reading List, Fall 2025", a copy-paste slip in the original; it
+is the Spring 2026 list and is labelled as such here.
+
+**Deduplication.** 106 raw entries, 80 unique papers. Entries merge when the authors match and
+the titles are recognisably the same. One paper was merged across genuinely different titles:
+Grigsby and Zorzi appeared as "The Labor Market Consequences of a Rapid Climate Transition"
+(Fall 2025, Spring 2026) and "How Do Rapid Sectoral Shifts Affect Workers?" (Fall 2026). It is
+one paper, now NBER w34922. That merge is hard-coded rather than reached by loosening the
+similarity threshold, because any threshold loose enough to catch it also merges genuinely
+different papers.
+
+**Linking a paper to the session that presented it** needed two signals, and using either one
+alone produced wrong links that looked plausible:
+
+- Title alone attached Pearce and Wu's "Market Concentration and Aggregate Productivity" to
+  Olmstead-Rumsey's "Market Concentration and the Productivity Slowdown". Different paper,
+  different author, and it would have credited the wrong person.
+- Author agreement with a loose title threshold attached four more: Angeletos, Lian and Wolf's
+  "Fiscal Inaction as Monetary Support" to their "Deficits and Inflation"; Hubmer and Nord's
+  "Investment in Demand" to Nord's "Shopping, Demand Composition"; and two similar.
+
+A link now needs author overlap **and** title similarity of at least 0.60. That number sits in
+a clean gap in the data: genuine short-versus-long titles of one paper score 0.68 to 0.85,
+while different papers by the same authors score 0.46 to 0.49. 30 of the 80 papers link to a
+session, and every link below 0.90 was checked by hand.
+
+Two sessions since Fall 2025 have no reading-list entry, correctly: Arnav Deshpande
+(2025-09-24) and Elena Casanovas (2026-04-29) each presented their own work in progress, which
+was never on a list.
