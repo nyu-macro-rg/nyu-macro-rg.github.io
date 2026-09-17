@@ -3,7 +3,9 @@
    One accent (NYU violet), a serif for paper titles, a sans for UI.
    --------------------------------------------------------------- */
 
+/* Light is the default palette. */
 :root {
+  color-scheme: light;
   --bg:      #FDFCFA;
   --surface: #FFFFFF;
   --text:    #16141A;
@@ -16,8 +18,12 @@
   --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
+/* Dark applies when the OS asks for it AND the reader has not chosen light,
+   or whenever the reader has chosen dark. The two blocks below are the same
+   palette and must be kept in sync. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg:      #131115;
     --surface: #1A171E;
     --text:    #EDEAF0;
@@ -27,6 +33,17 @@
     --rule:    #2A262F;
     --hero-bg: #1C1622;
   }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg:      #131115;
+  --surface: #1A171E;
+  --text:    #EDEAF0;
+  --muted:   #9A94A2;
+  --faint:   #8F8899;
+  --accent:  #C9A3E8;
+  --rule:    #2A262F;
+  --hero-bg: #1C1622;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -200,7 +217,7 @@ footer.site p { margin: 0 0 6px; max-width: none; }
 
 @media print {
   :root { --bg:#fff; --text:#000; --muted:#444; --accent:#000; --rule:#bbb; --hero-bg:#f4f4f4; --surface:#fff; }
-  header.site nav, footer.site, .skip { display: none; }
+  header.site nav, footer.site, .skip, .theme-toggle { display: none !important; }
   .session { break-inside: avoid; }
   .links a { border: none; padding: 0; text-decoration: underline; }
 }
@@ -279,3 +296,31 @@ a.rl-presented {
 a.rl-presented:hover { background: var(--accent); color: var(--bg); text-decoration: none; }
 
 li.was-presented .rl-title { color: var(--text); }
+
+/* ---------- theme toggle ---------- */
+
+.theme-toggle {
+  margin: -4px 0 12px auto;            /* pushes it to the end of the nav row */
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; padding: 0;
+  background: transparent;
+  border: 1px solid var(--rule); border-radius: 100px;
+  color: var(--muted);
+  cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+}
+.theme-toggle:hover { color: var(--text); border-color: var(--muted); }
+.theme-toggle svg { width: 15px; height: 15px; display: block; }
+
+/* Which icon shows is pure CSS, so it is right on first paint with no
+   scripted class-juggling: show the theme you would switch TO. */
+.theme-toggle .i-sun  { display: none; }
+.theme-toggle .i-moon { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .i-sun  { display: block; }
+  :root:not([data-theme="light"]) .theme-toggle .i-moon { display: none; }
+}
+:root[data-theme="dark"]  .theme-toggle .i-sun  { display: block; }
+:root[data-theme="dark"]  .theme-toggle .i-moon { display: none; }
+:root[data-theme="light"] .theme-toggle .i-sun  { display: none; }
+:root[data-theme="light"] .theme-toggle .i-moon { display: block; }

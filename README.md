@@ -172,6 +172,7 @@ every year, and every moving part is something that can break while nobody is wa
 | `reading-list.html` | Every suggested paper, with links to the ones that were presented. |
 | `resources.html` | Guidance for presenters. |
 | `assets/style.css` | All styling. |
+| `assets/theme.js` | The dark-mode toggle. A matching inline script in the layout applies the saved choice before the page paints. |
 | `assets/next-session.js` | ~70 lines. Recomputes which session is next using the visitor's clock, so the front page stays correct even if nobody pushes for months. |
 | `files/` | Slide PDFs and the presentation-tips handout. |
 | `quality_reports/provenance.md` | Where every listed session came from, three places the historical record was wrong, and which entries are less reliable. |
